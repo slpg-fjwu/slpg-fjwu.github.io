@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-new updateWelcome to Fatima Jinnah Women University's **Speech and Language Processing Group**. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
+Welcome to Fatima Jinnah Women University's **Speech and Language Processing Group**. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
 
 * Universal natural language processing and transfer learning
 * Natural language processing for educational applications
