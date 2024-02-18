@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: slpg-fjwu.github.io/sitemap.xml
