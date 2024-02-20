@@ -28,7 +28,7 @@ category: work
             <h2>Future Directions</h2>
             <p>Future research in zero-shot NMT for low-resource languages should focus on improving translation quality, scalability, and resource efficiency. Techniques such as semi-supervised learning, active learning, and zero-resource translation hold promise for enhancing model performance with limited data. Additionally, efforts to build larger and more diverse multilingual corpora can further empower zero-shot NMT systems to bridge language barriers effectively.</p>
             <h2>Conclusion</h2>
-            <p>Zero-shot NMT systems offer a promising solution for facilitating translation between low-resource languages, leveraging shared representations and multilingual training to overcome data scarcity. While challenges remain, ongoing research and innovation hold the potential to significantly improve translation quality and accessibility for diverse linguistic communities, promoting inclusivity and communication across language boundaries.</p>
+            <p>Zero-shot NMT systems offer a promising solution for facilitating translation between low-resource languages, leveraging shared representations and multilingual training to overcome data scarcity. While challenges remain, ongoing research and innovation hold the potential to significantly improve translation quality and accessibility for diverse linguistic communities, promoting inclusivity and communication across language boundaries..</p>
         </div>
     </div>
 </div>
