@@ -7,18 +7,21 @@ importance: 4
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Introduction
+In the domain of language simplification, creating aligned monolingual parallel
+data sets tailored to specific linguistic dialects is a significant endeavor. In this
+pursuit, we present the pioneering Punjabi Simplification (PUSIM) corpus, which
+focuses on the Shahmukhi dialect.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Sentence Simplification 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Sentence simplification  refers to the process of making complex or intricate sentences easier to understand while retaining the original meaning. This is particularly useful for individuals who may have difficulty comprehending complex language, such as non-native speakers, individuals with learning disabilities, or those with limited literacy skills. Sentence simplification techniques may involve breaking down complex sentence structures, substituting difficult words with simpler synonyms, and rephrasing convoluted phrases to improve clarity and readability without altering the underlying message or content of the text. Simplified sentences are often employed in educational materials, instructional texts, and academic resources to facilitate comprehension and accessibility for a wider audience.
+
+PUSIM corpus Creation 
+Two annotators worked on corpus creation which took almost 500 man hours. Both were Punjabi natives with fluent proficiency with one being a linguist and Punjabi expert.This would be the first corpus in Punjanbi  which will release publically after the publication.
+
+Corpus Evalution.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
