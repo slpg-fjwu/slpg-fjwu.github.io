@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sentence Simplification in Punjabi Language
-description: Working on Punjabi Gurmukhi & Shahmukhi
+description: Working on creating  Punjabi  Shahmukhi simplification corpus
 img:  assets/img/sentence simplification.png
 importance: 4
 category: work
