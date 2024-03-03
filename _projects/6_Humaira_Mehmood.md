@@ -2,7 +2,7 @@
 layout: page
 title: An End-to-End Speech Translation System
 description: A comprehensive overview of an end-to-end speech translation system for English to Urdu language direction, with a focus on overcoming data scarcity issues.
-img: https://github.com/slpg-fjwu/slpg-fjwu.github.io/blob/main/assets/img/speech-speech.png
+img: [https://github.com/slpg-fjwu/slpg-fjwu.github.io/blob/main/assets/img/speech-speech.png](https://github.com/slpg-fjwu/slpg-fjwu.github.io/blob/c3da6b58ba0d65b687379fc06ea8a2b8b54c9cc1/assets/img/speech-speech.png)
 importance: 7
 category: work
 ---
