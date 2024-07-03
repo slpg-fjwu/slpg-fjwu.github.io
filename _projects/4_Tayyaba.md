@@ -30,6 +30,9 @@ To produce the understandable content for the speakers and language learners.
 Related Work 
 assets/img/simplification_timeline_jpg
 
+![image](https://github.com/slpg-fjwu/slpg-fjwu.github.io/assets/14946796/aaef80b2-b3d4-4267-a95d-1b3c69dc9a66)
+
+
 
 
 Corpus Evalution.
