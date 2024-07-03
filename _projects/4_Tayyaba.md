@@ -20,6 +20,18 @@ Sentence simplification  refers to the process of making complex or intricate se
 PUSIM corpus Creation 
 Two annotators worked on corpus creation which took almost 500 man hours. Both were Punjabi natives with fluent proficiency with one being a linguist and Punjabi expert.This would be the first corpus in Punjanbi  which will release publically after the publication.
 
+Goals and Objective
+Our goal is to develop a sentence simplification system using the PUSIM language corpus that can be utilized in various natural language processing (NLP) tasks, such as machine translation. To achieve this, we have three objectives.
+
+create a simplified corpus of Punjabi language while the meaning is preserved.
+Produce further simplified versions of a complex sentence with simple vocabulary and sentence structure.
+To produce the understandable content for the speakers and language learners.
+
+Related Work 
+
+
+
+
 Corpus Evalution.
 
 
