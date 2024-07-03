@@ -28,68 +28,35 @@ Produce further simplified versions of a complex sentence with simple vocabulary
 To produce the understandable content for the speakers and language learners.
 
 Related Work 
-
+assets/img/simplification_timeline_jpg
 
 
 
 Corpus Evalution.
 
+Sentence simplification may be evaluated in different ways, one by humans who look at things like grammatical correctness and maintaining the intended meaning of the original text, and the other by machines who use a variety of metrics to train and compare various models, as well as automatic readability. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Human evaluation is time-consuming and costly, but it provides a more accurate measure of the quality of the output. 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Automatic evaluation, on the other hand, involves using metrics to measure the quality of the simplifications. BLEU (Papineni et al., 2002) and SARI (Alva, 2019) are two metrics that are commonly used for this purpose. 
 
+For evaluating the quality and simplicity of our corpus, we performed human evaluation which were done by four different  speakers of 12 grade to 16 grade with two having an average grasp on the Punjabi language and  the other two who belong grade 14 and 16 have a good grasp in the Punjabi language.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Human Evaluation 
 
+![image](https://github.com/slpg-fjwu/slpg-fjwu.github.io/assets/14946796/07a72048-1c5e-4d7a-9b09-91bbbeb48d4c)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Automatic Readability Metrics  for Evaluation Used in PUSIM
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+A text’s readability level is a useful indicator of its complexity and intended readership. 
+
+In the PUSIM corpus, we used different automatic readability metrics.by modifying a few features to ensure that the readability of our corpus is increased. 
+
+WE used FRE ,FKGL, SMOG , and ARI. 
+
+ For  automatic system building we use BLEU  and SARI scores.
+
+ Future WORK 
+
+ In the domain of sentence simplification, the use of reference-less metrics for assessing generated outputs have shown potential in the realm of Quality Estimation research. This approach holds the promise of enhancing the efficiency and scope of automated assessment. Additional research is required to go deeper into this concept. From our perspective, it seems that just three criteria have been used in the assessment of human-based evaluations, namely grammatical accuracy, semantic coherence, and lucidity. Do these requirements meet the necessary criteria? If a change in perspective were made to consider objects at the document level, would they retain their utility? What methodologies may be used to ascertain the efficacy of the condensed version in terms of its relevance and usefulness to the target audience? etc.
+
