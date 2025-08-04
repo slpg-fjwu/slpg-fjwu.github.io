@@ -1,6 +1,6 @@
 ---
 layout: post
-title: S&LP Group Wins 1st Prize @ PiNTECH Expo 2025
+title: S&LPG Group Wins 1st Prize @ PiNTECH Expo 2025
 date: 2025-08-04 21:00:00+0500 
 inline: false
 related_posts: false
