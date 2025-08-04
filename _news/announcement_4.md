@@ -13,10 +13,6 @@ We are delighted to share a proud moment for our **Speech & Language Processing 
 
 The award-winning project, titled _“Speech Enabled Machine Translation System for Pakistani Languages,”_ addresses real-world linguistic challenges and was honored with a prize. This achievement showcases the potential of applied research to make national impact.
 
-This success was made possible under the visionary supervision of **Dr. Sadaf Abdul Rauf** (Associate Professor, Department of Computer Science). The project team includes our brilliant students — **Ms. Sheema Firdous** and **Ms. Shahzadi Ambreen** — whose dedication and innovation brought this idea to life.  
-
-Special recognition also goes to **Mr. Sami**, **Ms. Sumbal**, and **Ms. Noor e Hira** for their valuable contributions throughout the journey.
-
 This milestone reaffirms our group’s commitment to meaningful research, technological innovation, and empowering voices through language technology.
 
 Stay tuned as the S&LP Group continues to explore new frontiers in speech and language research!
