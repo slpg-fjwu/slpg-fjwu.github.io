@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: SLP Group  # the website title (if blank, full name will be used instead)
-first_name: SLP
+title: SLPG  # the website title (if blank, full name will be used instead)
+first_name: SLPG
 middle_name:
-last_name: Group
+last_name:
 email: sadaf.abdulrauf@fjwu.edu.pk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Web page for Fatima Jinnah Women University Speech and Langauge Processing Group.
