@@ -2,7 +2,7 @@
 layout: page
 permalink: /resources/
 title: Resources
-description: Download resources of Machine Translation Models and datasets developed by S&LPG 
+description: Download resources of Machine Translation Models and datasets developed by SLPG 
 nav: true
 nav_order: 7
 ---
