@@ -23,4 +23,4 @@ Welcome to Fatima Jinnah Women University's **Speech and Language Processing Gro
 * Context-aware machine translation
 * Low-resource machine translation
 
-More details about our project can be found <a href="/projects/">here</a>. Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. 
+More details about our project can be found <a href="/_pages/graduate_research.md">here</a>. Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. 
