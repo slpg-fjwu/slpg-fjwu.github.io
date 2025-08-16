@@ -9,7 +9,7 @@ related_posts: false
 
 ***
 
-We are delighted to share a proud moment for our **Speech & Language Processing (SLPG)** — our team has secured the **1st Prize in the Computer Science category** at the **PiNTECH Expo 2025**, standing out among **1100+ competitive projects** from across Punjab! 🏆
+We are delighted to share a proud moment for our **Speech & Language Processing Group (SLPG)** — our team has secured the **1st Prize in the Computer Science category** at the **PiNTECH Expo 2025**, standing out among **1100+ competitive projects** from across Punjab! 🏆
 
 The award-winning project, titled _“Speech Enabled Machine Translation System for Pakistani Languages,”_ addresses real-world linguistic challenges and was honored with a prize. This achievement showcases the potential of applied research to make national impact.
 
