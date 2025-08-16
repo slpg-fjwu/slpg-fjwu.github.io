@@ -2,7 +2,7 @@
 layout: page
 title: Graduate Research
 permalink: /graduate_research/
-description: Projects by S&LP Group.
+description: Projects by SLPG.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
