@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: List of courses and research areas we explore at S&LPG.
+description: List of courses and research areas we explore at SLPG.
 nav: true
 nav_order: 5
 ---
@@ -10,7 +10,7 @@ nav_order: 5
 <div class="container text-justify">
     <!-- <div class="row justify-content-center"> -->
         <!-- <div class="col-md-10 "> -->
-            <p>Welcome to our Speech & Language Processing (S&LP) Group, where the fascinating world of language meets the cutting-edge advancements in Artificial Intelligence. In this dynamic learning environment, we delve into the intricacies of human language and its interaction with technology. Our lab is dedicated to imparting knowledge and skills in a range of NLP subjects, empowering students to decode language patterns, develop language models, and create AI-driven applications that understand, generate, and manipulate text in meaningful ways.</p>
+            <p>Welcome to our Speech & Language Processing Group (SLPG), where the fascinating world of language meets the cutting-edge advancements in Artificial Intelligence. In this dynamic learning environment, we delve into the intricacies of human language and its interaction with technology. Our lab is dedicated to imparting knowledge and skills in a range of NLP subjects, empowering students to decode language patterns, develop language models, and create AI-driven applications that understand, generate, and manipulate text in meaningful ways.</p>
 
             <p>List of Research Areas:</p>
            <ul>
