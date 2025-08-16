@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-S&LPG participated in WNGT workshop.
+SLPG participated in WNGT workshop.
