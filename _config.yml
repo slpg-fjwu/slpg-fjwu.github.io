@@ -71,6 +71,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: slpg-fjwu # your GitHub user name
+huggingface_id: SLPG
+huggingface_name: "Speech and Language Processing Group"
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
