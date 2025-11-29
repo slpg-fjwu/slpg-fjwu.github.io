@@ -110,24 +110,14 @@
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {%- if site.huggingface_id -%}
             <a href="https://huggingface.co/{{ site.huggingface_id }}" 
-               title="{{ site.huggingface_name }}" 
-               class="hf-icon-link">
+               title="{{ site.huggingface_name }}"
+               onmouseover="this.children[0].style.filter='invert(35%) sepia(98%) saturate(7500%) hue-rotate(285deg) brightness(95%) contrast(105%)';"
+               onmouseout="this.children[0].style.filter='none';">
+               
                <img src="{{ '/assets/img/huggingface_logo.png' | relative_url }}" 
-                    alt="Hugging Face" 
-                    class="hf-icon"
-                    style="width:56px; height:56px; border-radius:8px; display:inline-block; vertical-align:-2.8px; margin:0 0.2em; margin-left:5px;">
+                    alt="Hugging Face"
+                    style="width:56px; height:56px; border-radius:8px; vertical-align:-2.8px; margin:0 0.2em; margin-left:5px;">
             </a>
-            <style>
-            /* Only HuggingFace icon hover effect */
-            .hf-icon-link .hf-icon {
-                transition: filter 0.25s ease;
-            }
-            
-            .hf-icon-link:hover .hf-icon {
-                /* same purple-pink hover color as your link */
-                filter: invert(35%) sepia(98%) saturate(7500%) hue-rotate(285deg) brightness(95%) contrast(105%);
-            }
-            </style>
             {%- endif -%}
-
+            
 
