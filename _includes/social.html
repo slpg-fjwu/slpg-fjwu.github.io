@@ -110,6 +110,5 @@
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
 
-            {%- if site.huggingface_id -%} <a href="https://huggingface.co/{{ site.huggingface_id }}" title="{{ site.huggingface_name }}" class="social-icon"> <img src="{{ '/assets/img/huggingface_logo.png' | relative_url }}" alt="Hugging Face" style="width:56px; height:56px;border-radius:8px; display:inline-block; vertical-align:-2.8px; margin:0 0.2em; margin-left:5px;"> </a> {% endif %}
-
+            {%- if site.huggingface_id -%} <a href="https://huggingface.co/{{ site.huggingface_id }}" title="{{ site.huggingface_name }}"> <img src="{{ '/assets/img/huggingface_logo.png' | relative_url }}" alt="Hugging Face" style="width:56px; height:56px;border-radius:8px; display:inline-block; vertical-align:-2.8px; margin:0 0.2em; margin-left:5px;"> </a>
 
