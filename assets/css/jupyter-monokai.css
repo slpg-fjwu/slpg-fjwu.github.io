@@ -3740,3 +3740,19 @@ div#maintoolbar {
 #header-container {
     display: none !important;
 }
+.hf-icon .hf-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: -2.8px;
+    margin: 0 0.2em;
+    margin-left: 5px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+/* Hover effect */
+.hf-icon:hover .hf-img {
+    transform: scale(1.1); /* thoda bada ho jaye */
+    filter: brightness(1.2); /* thoda bright ho jaye */
+}
