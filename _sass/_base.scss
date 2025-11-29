@@ -1042,3 +1042,13 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+/* Social Icons Hover Color */
+.social-icon {
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ff4dda !important;  /* purple-pink */
+  cursor: pointer;
+}
+
