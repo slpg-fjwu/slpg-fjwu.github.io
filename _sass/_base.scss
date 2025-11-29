@@ -1042,14 +1042,20 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
-/* Social Icons Hover Color */
-.social-icon img {
-  transition: filter 0.3s ease;
+.hf-icon .hf-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: -2.8px;
+    margin: 0 0.2em;
+    margin-left: 5px;
+    transition: transform 0.3s, filter 0.3s;
 }
 
-.social-icon:hover img {
-  filter: brightness(0) saturate(100%) invert(61%) sepia(44%) saturate(7271%) hue-rotate(293deg) brightness(100%) contrast(100%);
-  cursor: pointer;
+/* Hover effect */
+.hf-icon:hover .hf-img {
+    transform: scale(1.1); /* thoda bada ho jaye */
+    filter: brightness(1.2); /* thoda bright ho jaye */
 }
-
 
