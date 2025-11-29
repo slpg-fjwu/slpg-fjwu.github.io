@@ -3740,3 +3740,11 @@ div#maintoolbar {
 #header-container {
     display: none !important;
 }
+.social-icon img {
+  transition: filter 0.3s ease;
+}
+
+.social-icon:hover img {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(44%) saturate(7271%) hue-rotate(293deg) brightness(100%) contrast(100%);
+  cursor: pointer;
+}
