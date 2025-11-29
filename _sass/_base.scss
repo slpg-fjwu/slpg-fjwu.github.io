@@ -1043,12 +1043,13 @@ nav[data-toggle="toc"] {
   }
 }
 /* Social Icons Hover Color */
-.social-icon {
-  transition: color 0.3s ease;
+.social-icon img {
+  transition: filter 0.3s ease;
 }
 
-.social-icon:hover {
-  color: #ff4dda !important;  /* purple-pink */
+.social-icon:hover img {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(44%) saturate(7271%) hue-rotate(293deg) brightness(100%) contrast(100%);
   cursor: pointer;
 }
+
 
