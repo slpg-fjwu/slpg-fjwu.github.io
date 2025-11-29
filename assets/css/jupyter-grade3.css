@@ -3753,6 +3753,6 @@ div#maintoolbar {
 
 /* Hover effect */
 .hf-icon:hover .hf-img {
-    transform: scale(1.1); /* thoda bada ho jaye */
-    filter: brightness(1.2); /* thoda bright ho jaye */
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
 }
