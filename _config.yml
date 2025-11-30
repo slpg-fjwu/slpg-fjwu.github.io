@@ -6,7 +6,7 @@ title: SLPG  # the website title (if blank, full name will be used instead)
 first_name: SLPG
 middle_name:
 last_name:
-email: sadaf.abdulrauf@fjwu.edu.pk
+email: sadaf.abdulrauf@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Web page for Fatima Jinnah Women University Speech and Langauge Processing Group.
 footer_text: >  
@@ -108,7 +108,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can contact us at sadaf.abdulrauf@fjwu.edu.pk.
+  You can contact us at sadaf.abdulrauf@gmail.com.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
