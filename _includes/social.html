@@ -1,4 +1,4 @@
-            {%- if site.email -%}
+{%- if site.email -%}
             <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
             {% endif %}
             {%- if site.telegram_username -%}
@@ -109,6 +109,11 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
-
-            {%- if site.huggingface_id -%} <a href="https://huggingface.co/{{ site.huggingface_id }}" title="{{ site.huggingface_name }}"> <img src="{{ '/assets/img/huggingface_logo.png' | relative_url }}" alt="Hugging Face" style="width:56px; height:56px;border-radius:8px; display:inline-block; vertical-align:-2.8px; margin:0 0.2em; margin-left:5px;"> </a>
-
+            {%- if site.huggingface_id -%}
+            <a href="https://huggingface.co/{{ site.huggingface_id }}" 
+               title="{{ site.huggingface_name }}">
+               <img src="{{ '/assets/img/huggingface_logo.png' | relative_url }}" 
+                    alt="Hugging Face" 
+                    style="width:56px; height:56px;border-radius:8px; display:inline-block; vertical-align:-2.8px; margin:0 0.2em; margin-left:5px;">
+            </a>
+            {% endif %}
