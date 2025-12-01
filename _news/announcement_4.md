@@ -1,16 +1,20 @@
 ---
 layout: post
-title: Student Won Merit Award @ 3MT
-date: 2022-11-07 16:11:00-0400
+title: SLPG Wins 1st Prize @ PiNTECH Expo 2025
+date: 2025-08-04 21:00:00+0500 
 inline: false
 related_posts: false
 ---
-🎉 Announcement: Celebrating an Outstanding Achievement!
+🎉 Announcement: Celebrating a Major Win at PiNTECH Expo 2025!
 
 ***
 
-We are thrilled to announce a remarkable accomplishment within our S&LP Group that fills us with immense pride. 🏆 One of our talented students has secured the coveted Merit Award at the prestigious NUST 3 Minute Thesis Competition!
+We are delighted to share a proud moment for our Speech & Language Processing Group (SLPG) — the team has secured the 1st Prize in the Computer Science category at the PiNTECH Expo 2025, standing out among 1100+ competitive projects from across Punjab! 🏆
 
-Sami Ul Haq, our dedicated student's exceptional presentation and research skills shone brightly during the competition, earning him the well-deserved Merit Award. This achievement not only reflects his dedication to research excellence but also their ability to effectively communicate complex ideas in just three minutes. He is working on building Context-Aware Neural Machine Translation systems for low-resourced langauges. 
+The award-winning project, titled “Speech Enabled Machine Translation System for Pakistani Languages,” addresses real-world linguistic challenges and was recognized for its innovation and national impact.
 
-Stay tuned for more updates on our group's achievements and advancements. Together, we forge ahead toward new heights of success!
+This success highlights SLPG’s continued dedication to research excellence, collaborative innovation, and the development of meaningful technological solutions for Pakistani languages. The project’s journey reflects strong teamwork, technical depth, and a shared vision of advancing language technology.
+
+This milestone reinforces SLPG’s commitment to creating impactful research, driving innovation, and exploring new frontiers in speech and language technologies.
+
+Stay tuned as SLPG continues to push boundaries and contribute to transformative advancements in the field!
