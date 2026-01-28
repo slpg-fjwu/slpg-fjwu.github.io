@@ -8,7 +8,7 @@ profile:
   align: right
   image: 
   image_circular: false
-  address: Welcome to our group!
+  address: Welcome to our Speech and Language Processing Group!
 
 news: true
 latest_posts: true
