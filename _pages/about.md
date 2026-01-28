@@ -6,7 +6,7 @@ subtitle: <a href='#'>FJWU</a>. Rawalpindi. Pakistan.
 
 profile:
   align: right
-  image: slpg-fjwu.JPG
+  image: 
   image_circular: false
   address: Welcome to our group!
 
