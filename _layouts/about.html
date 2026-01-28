@@ -40,11 +40,11 @@ layout: default
           <!-- Clear floats after content -->
           <div style="clear: both; margin-bottom: 30px;"></div>
           
-          <!-- News Section with Video on Right Side -->
+          <!-- News Section with Video on RIGHT Side, Content on LEFT -->
           {% if page.news and site.announcements.enabled -%}
             
-            <!-- Video Float Right - WIDER & TALLER -->
-            <div style="float: right; width: 380px; margin-left: 15px; margin-bottom: 20px;">
+            <!-- Video Float Right - 350px width, NO welcome text -->
+            <div style="float: right; width: 350px; margin-left: 20px; margin-bottom: 20px;">
               <div class="profile-video">
                 <video 
                   width="100%" 
@@ -52,20 +52,19 @@ layout: default
                   controls 
                   preload="auto"
                   playsinline
-                  style="border-radius: 8px; display: block; background: #000; min-height: 280px;">
+                  style="border-radius: 8px; display: block; background: #000; min-height: 250px;">
                   <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
                   <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <div class="address" style="text-align: center; margin-top: 10px; font-size: 14px;">
-                Welcome to our group!
-              </div>
             </div>
             
-            <!-- News Content -->
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-            {%- include news.html limit=true %}
+            <!-- News Content on LEFT -->
+            <div>
+              <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+              {%- include news.html limit=true %}
+            </div>
             
             <!-- Clear floats after news -->
             <div style="clear: both;"></div>
