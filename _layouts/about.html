@@ -33,8 +33,9 @@ layout: default
             
             <!-- RIGHT SIDE VIDEO -->
             <div class="profile-video" style="margin-top: 15px;">
-              <video width="100%" controls style="border-radius: 8px;">
+              <video width="100%" height="auto" controls preload="metadata" style="border-radius: 8px; background: #000;">
                 <source src="{{ '/assets/videos/update_video_.mp4' | relative_url }}" type="video/mp4">
+                <source src="/assets/videos/update_video_.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -47,7 +48,8 @@ layout: default
             {{ content }}
           </div>
           
-
+          <!-- Clear floats -->
+          <div style="clear: both; margin-bottom: 20px;"></div>
           
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
