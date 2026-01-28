@@ -19,11 +19,16 @@ layout: default
               {% else %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
+              
+              <!-- COMMENT OUT OR REMOVE IMAGE -->
+              <!--
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image
               cache_bust=true -%}
+              -->
+              
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
@@ -39,7 +44,7 @@ layout: default
                 controls 
                 preload="auto"
                 playsinline
-                style="border-radius: 8px; max-width: 100%; min-height: 250px; display: block; background: #000;">
+                style="border-radius: 8px; max-width: 100%; min-height: 280px; display: block; background: #000;">
                 <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
                 <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
                 <source src="assets/video/update_video_.mp4" type="video/mp4">
