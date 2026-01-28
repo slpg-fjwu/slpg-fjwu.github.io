@@ -26,53 +26,15 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-/******************************************************************************
- * Profile
- ******************************************************************************/
-
+// Profile
 .profile {
   img {
     width: 100%;
   }
 }
 
-/******************************************************************************
- * News Section (Content LEFT, Video RIGHT)
- ******************************************************************************/
+// TODO: redefine content layout.
 
-.news-wrapper {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;            // 👈 wide spacing as requested
-  margin-top: 30px;
-}
-
-.news-text {
-  flex: 1;              // text takes remaining width
-}
-
-.news-video {
-  width: 360px;         // similar to profile image width
-  flex-shrink: 0;
-
-  video {
-    width: 100%;
-    border-radius: 8px;
-    background: #000;
-  }
-}
-
-/* Mobile / Tablet responsiveness */
-@media (max-width: 768px) {
-  .news-wrapper {
-    flex-direction: column;
-  }
-
-  .news-video {
-    width: 100%;
-    margin-top: 20px;
-  }
-}
 
 /******************************************************************************
  * Publications
@@ -80,8 +42,9 @@ body.sticky-bottom-footer {
 
 // TODO: redefine publications layout.
 
-/******************************************************************************
- * Projects
- ******************************************************************************/
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
 
 // TODO: redefine projects layout.
