@@ -3,7 +3,8 @@ layout: default
 ---
 <style>
 .profile {
-  width: 550px !important;
+  width: 400px !important;
+  max-width: 400px !important;
 }
 </style>
 
@@ -26,14 +27,14 @@ layout: default
                 controls 
                 preload="auto"
                 playsinline
-                style="border-radius: 6px; display: block; background: #000; margin: 0 auto;">
+                style="border-radius: 12px; display: block; background: #000; margin: 0 auto; border: 3px solid #00ff88;">
                 <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
                 <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
             {%- if page.profile.address %}
-            <div class="address" style="margin-top: 15px;">
+            <div class="address" style="margin-top: 15px; text-align: center; font-family: monospace;">
               {{ page.profile.address }}
             </div>
             {%- endif %}
@@ -59,7 +60,14 @@ layout: default
             
           {%- endif %}
           
-          <!-- Latest papers -->
+          <!-- Latest posts 
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            {%- include latest_posts.html %}
+          {%- endif %}
+              -->
+          
+          <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
             {%- include selected_papers.html %}
