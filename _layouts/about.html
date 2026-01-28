@@ -10,23 +10,25 @@ layout: default
           <p class="desc">{{ page.subtitle }}</p>
         </header>
         <article>
+          
+          <!-- VIDEO IN PLACE OF YELLOW BOX -->
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-            {% endif -%}
+            <div style="text-align: center;">
+              <video 
+                width="100%" 
+                height="auto"
+                controls 
+                preload="auto"
+                playsinline
+                style="border-radius: 6px; display: block; background: #000; min-height: 280px; margin: 0 auto; max-width: 340px;">
+                <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
+                <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
             {%- if page.profile.address %}
-            <div class="address">
+            <div class="address" style="margin-top: 15px;">
               {{ page.profile.address }}
             </div>
             {%- endif %}
@@ -40,25 +42,8 @@ layout: default
           <!-- Clear floats after content -->
           <div style="clear: both; margin-bottom: 40px;"></div>
           
-          <!-- News Section with Video on RIGHT Side -->
+          <!-- News Section -->
           {% if page.news and site.announcements.enabled -%}
-            
-            <!-- Video Float Right - FINAL OPTIMIZED -->
-            <div style="float: right; width: 340px; margin-left: 25px; margin-bottom: 20px; margin-top: 80px; text-align: center;">
-              <video 
-                width="100%" 
-                height="auto"
-                controls 
-                preload="auto"
-                playsinline
-                style="border-radius: 6px; display: block; background: #000; min-height: 280px; margin: 0 auto;">
-                <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
-                <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            
-            <!-- News Content on LEFT -->
             <div style="overflow: hidden;">
               <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
               {%- include news.html limit=true %}
