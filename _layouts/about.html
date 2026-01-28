@@ -11,7 +11,7 @@ layout: default
         </header>
         <article>
           
-          <!-- VIDEO IN PLACE OF YELLOW BOX - INCREASED WIDTH -->
+
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             <div style="text-align: center;">
@@ -21,7 +21,7 @@ layout: default
                 controls 
                 preload="auto"
                 playsinline
-                style="border-radius: 6px; display: block; background: #000; min-height: 380px; margin: 0 auto; max-width: 550px;">
+                style="border-radius: 6px; display: block; background: #000; min-height: 240px; margin: 0 auto; max-width: 550px;">
                 <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
                 <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
                 Your browser does not support the video tag.
