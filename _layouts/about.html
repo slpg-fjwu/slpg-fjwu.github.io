@@ -31,11 +31,16 @@ layout: default
             </div>
             {%- endif %}
             
-            <!-- RIGHT SIDE VIDEO -->
+            <!-- RIGHT SIDE VIDEO - CORRECTED PATH -->
             <div class="profile-video" style="margin-top: 15px;">
-              <video width="100%" height="auto" controls preload="metadata" style="border-radius: 8px; background: #000;">
-                <source src="{{ '/assets/videos/update_video_.mp4' | relative_url }}" type="video/mp4">
-                <source src="/assets/videos/update_video_.mp4" type="video/mp4">
+              <video 
+                width="100%" 
+                controls 
+                preload="metadata"
+                playsinline
+                style="border-radius: 8px; max-width: 100%; display: block; background: #000;">
+                <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
+                <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -49,7 +54,7 @@ layout: default
           </div>
           
           <!-- Clear floats -->
-          <div style="clear: both; margin-bottom: 20px;"></div>
+          <div style="clear: both; margin-bottom: 30px;"></div>
           
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
