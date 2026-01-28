@@ -23,4 +23,4 @@ Welcome to Fatima Jinnah Women University's **Speech and Language Processing Gro
 * Context-aware machine translation
 * Low-resource machine translation
 
-More details about our project can be found [here](https://slpg-fjwu.github.io/graduate_research/). Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops.
+More details about our project can be found [here](https://slpg-fjwu.github.io/graduate_research/). Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. Our model are found [here](https://github.com/slpg-fjwu).
