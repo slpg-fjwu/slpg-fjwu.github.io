@@ -9,6 +9,8 @@ profile:
   image: slpg-fjwu.JPG
   image_circular: false # crops the image to make it circular
   address: Welcome to our group!
+  video: "/assets/videos/update_video_.mp4"  # Local video path
+
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
