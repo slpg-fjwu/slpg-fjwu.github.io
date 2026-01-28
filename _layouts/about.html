@@ -31,34 +31,38 @@ layout: default
             </div>
             {%- endif %}
             
-            <!-- RIGHT SIDE VIDEO - CORRECTED PATH -->
-            <div class="profile-video" style="margin-top: 15px;">
+            <!-- RIGHT SIDE VIDEO - CENTERED & LARGER -->
+            <div class="profile-video" style="margin-top: 15px; display: flex; justify-content: center; align-items: center;">
               <video 
                 width="100%" 
+                height="auto"
                 controls 
-                preload="metadata"
+                preload="auto"
                 playsinline
-                style="border-radius: 8px; max-width: 100%; display: block; background: #000;">
+                style="border-radius: 8px; max-width: 100%; min-height: 250px; display: block; background: #000;">
                 <source src="https://slpg-fjwu.github.io/assets/video/update_video_.mp4" type="video/mp4">
                 <source src="{{ '/assets/video/update_video_.mp4' | relative_url }}" type="video/mp4">
+                <source src="assets/video/update_video_.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
             <!-- END RIGHT SIDE VIDEO -->
             
           </div>
+          <!-- CLEAR IMMEDIATELY AFTER PROFILE DIV -->
+          <div style="clear: both; min-height: 50px; display: block;"></div>
           {%- endif %}
           
           <div class="clearfix text-justify">
             {{ content }}
           </div>
           
-          <!-- Clear floats -->
-          <div style="clear: both; margin-bottom: 30px;"></div>
+          <!-- Extra clear before News -->
+          <div style="clear: both; display: block; height: 30px;"></div>
           
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            <h2 style="clear: both; padding-top: 20px;"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
           
