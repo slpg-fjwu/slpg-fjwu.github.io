@@ -8,8 +8,8 @@ category: work
 ---
 
 <div class="container text-justify">
-    <div class="row justify-content-center">
-        <div class="col-lg-10 text-justify">
+<div class="row justify-content-center">
+        <div class="text-justify">
 <h2>Introduction</h2>
 <p>Recent advances in large language models have accelerated research in argument mining and counter-argument generation. Argument mining focuses on automatically identifying claims, premises, and argumentative structures from text. This study explores how modern language models perform these tasks across discourse types. The research includes a formal political corpus derived from United Nations General Assembly speeches in addition to informal debate data.</p>
             
