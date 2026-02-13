@@ -1,28 +1,31 @@
 ---
 layout: page
-title: Exploring the Potential of Large Language Models for Counter Argument Generation
-description:A comprehensive exploration of Large Language Models for counter-argument generation across formal diplomatic discourse and informal online debates.
+title: "Exploring the Potential of Large Language Models for Counter Argument Generation"
+description: "A comprehensive exploration of Large Language Models for counter-argument generation across formal diplomatic discourse and informal online debates."
 img: assets/img/counterarg.png
 importance: 8
 category: work
 ---
 
 <div class="container text-justify">
-<div class="row justify-content-center">
-        <div class="text-justify">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 text-justify">
             <h2>Introduction</h2>
             <p>Recent advances in large language models have accelerated research in argument mining and counter-argument generation. Argument mining focuses on automatically identifying claims, premises, and argumentative structures from text. This study explores how modern language models perform these tasks across discourse types. The research includes a formal political corpus derived from United Nations General Assembly speeches in addition to informal debate data.</p>
+            
             <h2>Framework</h2>
             <p>The study follows a structured research framework that covers data preparation, model training, and evaluation stages. Both formal and informal debate sources are considered to ensure broad coverage. Multiple modern LLMs are analyzed under comparable settings. The framework is designed to fairly measure how well models handle counter-argument tasks.</p>
- 
-           
+            
             <h2>Challenges and Solutions</h2>
-            <p>Counter-argument generation is difficult because it requires context awareness, logical consistency, and domain sensitivity. Model performance varies significantly across discourse types and topics. Formal texts are especially challenging due to complexity and nuance. Reliable quality evaluation is also a continuing challenge in this area.
-A domain-aware and evaluation-driven approach is adopted to improve counter-argument generation quality. Carefully prepared datasets and controlled experiments are used to strengthen results. Multiple evaluation perspectives are combined to ensure balanced assessment. This provides a more dependable view of model capability.</p>
+            <p>Counter-argument generation is difficult because it requires context awareness, logical consistency, and domain sensitivity. Model performance varies significantly across discourse types and topics. Formal texts are especially challenging due to complexity and nuance. Reliable quality evaluation is also a continuing challenge in this area.</p>
+            <p>A domain-aware and evaluation-driven approach is adopted to improve counter-argument generation quality. Carefully prepared datasets and controlled experiments are used to strengthen results. Multiple evaluation perspectives are combined to ensure balanced assessment. This provides a more dependable view of model capability.</p>
+            
             <h2>Evaluation and Performance</h2>
             <p>System performance is measured using standard metrics such as Bleu, Rouge, Meteor and BERTScore along with qualitative judgment. Multiple automatic metrics are combined with structured human and LLM evaluation. Fine-tuned models consistently outperform zero-shot settings, especially in formal domains. Results show clear gains in coherence, relevance, and persuasiveness of generated counter-arguments.</p>
-	    <h2>Future Directions</h2>
+            
+            <h2>Future Directions</h2>
             <p>Future work can extend this approach to multilingual and cross-cultural argumentation settings. Integration with knowledge graphs and retrieval systems can further strengthen factual grounding.</p>
+            
             <h2>Conclusion</h2>
             <p>Domain-adapted LLMs can effectively generate persuasive counter-arguments when trained on structured and validated data. Combining prompt design, temporal fine-tuning, and hybrid evaluation leads to stronger results. The framework demonstrates practical value across formal and informal debate domains. This opens the path toward reliable AI-assisted argumentation systems.</p>
         </div>
