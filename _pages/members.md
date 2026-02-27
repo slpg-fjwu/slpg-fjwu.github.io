@@ -39,16 +39,16 @@ nav_order: 8
     <hr>
 
     <!-- PhD Alumni -->
-    <h2>PhD Alumni</h2>
-    <ul>
+    <h2 class="text-left">PhD Alumni</h2>
+    <ul class="text-left">
         <li><strong>Mr Sami Ul Haq</strong></li>
     </ul>
-
+    
     <hr>
-
+    
     <!-- Graduate Alumni -->
-    <h2>Graduate Alumni</h2>
-    <ul>
+    <h2 class="text-left">Graduate Alumni</h2>
+    <ul class="text-left">
         <li>Ms Fatima Mumtaz</li>
         <li>Ms Sheema Firdous</li>
         <li>Ms Humaira Mehmood</li>
@@ -63,3 +63,4 @@ nav_order: 8
     </ul>
 
 </div>
+
