@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: List of courses and research areas we explore at SLPG.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <div class="container text-justify">
