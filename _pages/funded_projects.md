@@ -4,7 +4,7 @@ title: Funded Projects
 permalink: /funded_projects/
 description: Projects by SLPG.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: true
 ---
