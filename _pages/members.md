@@ -4,7 +4,7 @@ permalink: /members/
 title: Members
 description: Meet the members of the Speech & Language Processing Group (SLPG).
 nav: true
-nav_order: 1
+nav_order: 8
 ---
 <div class="container text-center">
 <div class="container">
@@ -63,6 +63,7 @@ nav_order: 1
     </ul>
 
 </div>
+
 
 
 
