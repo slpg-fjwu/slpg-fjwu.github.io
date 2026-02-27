@@ -21,18 +21,6 @@ nav_order: 8
 
     <hr>
 
-    <!-- ================= PhD ================= -->
-    <h2>PhD Student</h2>
-    <div class="row justify-content-center">
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Sami ul Haq</strong></p>
-        </div>
-
-    </div>
-
-    <hr>
 
     <!-- ================= Graduate ================= -->
     <h2>Graduate Students</h2>
@@ -40,7 +28,7 @@ nav_order: 8
 
         <div class="col-md-3">
             <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Ms Fiza</strong></p>
+            <p><strong>Ms Fiza Khurram</strong></p>
         </div>
 
         <div class="col-md-3">
@@ -52,60 +40,27 @@ nav_order: 8
 
     <hr>
 
-    <!-- ================= Alumni ================= -->
-    <h2>Alumni</h2>
-    <div class="row justify-content-center">
+       <!-- ================= PhD Alumni ================= -->
+    <h2>PhD Alumni</h2>
+    <ul class="text-left">
+        <li><strong>Mr Sami Ul Haq</strong></li>
+    </ul>
 
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Fatima Mumtaz</strong></p>
-        </div>
+    <hr>
 
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Sheema Firdous</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Humaira Mehmood</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Rabbia Tanveer</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Ambreen</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Tayyaba</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Tania</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Ujala</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Misbah</strong></p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:170px; object-fit:cover;">
-            <p><strong>Ms Noor e Hira</strong></p>
-        </div>
-
-    </div>
+    <!-- ================= Graduate Alumni ================= -->
+    <h2>Graduate Alumni</h2>
+    <ul class="text-left">
+        <li>Ms Fatima Mumtaz</li>
+        <li>Ms Sheema Firdous</li>
+        <li>Ms Humaira Mehmood</li>
+        <li>Ms Rabbia Tanveer</li>
+        <li>Ms Ambreen</li>
+        <li>Ms Tayyaba</li>
+        <li>Ms Tania</li>
+        <li>Ms Ujala</li>
+        <li>Ms Misbah</li>
+        <li>Ms Noor e Hira</li>
+    </ul>
 
 </div>
