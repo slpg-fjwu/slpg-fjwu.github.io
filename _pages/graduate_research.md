@@ -4,7 +4,7 @@ title: Graduate Research
 permalink: /graduate_research/
 description: Projects by SLPG.
 nav: true
-nav_order: 4
+nav_order: 3
 display_categories: [work, fun]
 horizontal: true
 ---
