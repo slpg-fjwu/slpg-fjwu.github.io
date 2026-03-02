@@ -105,11 +105,17 @@ nav_order: 8
                 Forecasting Political Unrest: Machine Learning Approach for Predicting Early Warning Signs Through Data Analytics
             </a>
         </li>
-        <li>Ms Misbah Kazmi</li>
+        <li>
+            <strong>Ms Misbah Kazmi<strong> |
+                <a href="https://slpg-fjwu.github.io/projects/misbah/">
+               Fake News Detection on Kashmir Issue Using Machine Learning Techniques
+         
+        </li>
         <li>Ms Noor e Hira</li>
         <li>Ms Yusra Anees</li>
 
     </ul>
 
 </div>
+
 
