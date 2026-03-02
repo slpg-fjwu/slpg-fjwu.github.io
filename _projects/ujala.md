@@ -3,7 +3,7 @@ layout: page
 title: "Forecasting Political Unrest: Machine Learning Approach for Predicting Early Warning Signs Through Data Analytics"
 description: "A comprehensive study comparing 13 machine learning frameworks for forecasting early warning signs of political violence using multilingual news data and the ACLED dataset."
 img: assets/img/ujala.png
-importance: 1
+importance: 9
 category: work
 ---
 <div class="container text-justify">
@@ -29,4 +29,5 @@ category: work
 <p>This study demonstrates that traditional machine learning models like Logistic Regression and Decision Tree are highly effective for forecasting political violence when applied to structured datasets like ACLED, outperforming more complex deep learning architectures. The BERT-Multilingual framework showed promise for multilingual classification but requires further refinement to handle low-resource languages effectively. The real-time Twitter case study further validates the framework's ability to detect political trends and anticipate government actions. These findings provide actionable insights for policymakers to enhance preparedness and response to political violence threats, while setting a new benchmark for advanced analytics in conflict forecasting.</p>
         </div>
     </div>
+
 </div>
