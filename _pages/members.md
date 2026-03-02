@@ -6,6 +6,7 @@ description: Meet the members of the Speech & Language Processing Group (SLPG).
 nav: true
 nav_order: 8
 ---
+
 <div class="container text-center">
 <div class="container">
 
@@ -20,6 +21,7 @@ nav_order: 8
     </div>
 
     <hr>
+
     <!-- ================= Graduate ================= -->
     <h2>Graduate Students</h2>
     <div class="row justify-content-center">
@@ -49,7 +51,14 @@ nav_order: 8
     <!-- Graduate Alumni -->
     <h2 class="text-left">Graduate Alumni</h2>
     <ul class="text-left">
-        <li>Ms Fatima Mumtaz</li>
+
+        <li>
+            <strong>Ms Fatima Mumtaz</strong> |
+            <a href="/projects/8_Fatima/">
+                Exploring the Potential of Large Language Models for Counter Argument Generation
+            </a>
+        </li>
+
         <li>Ms Sheema Firdous</li>
         <li>Ms Humaira Mehmood</li>
         <li>Ms Rabbia Tanveer Ahmed</li>
@@ -60,10 +69,8 @@ nav_order: 8
         <li>Ms Misbah Kazmi</li>
         <li>Ms Noor e Hira</li>
         <li>Ms Yusra Anees</li>
+
     </ul>
 
 </div>
-
-
-
-
+</div>
