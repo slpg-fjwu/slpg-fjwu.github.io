@@ -99,29 +99,25 @@ nav_order: 8
                 Creation of Corpora and Analysis of Semantic Distance Between Sentence Translation in Various Languages
             </a>
         </li>
+
         <li>
             <strong>Ms Ujala Beenish</strong> |
-                <a href="https://slpg-fjwu.github.io/projects/ujala/">
+            <a href="/projects/ujala/">
                 Forecasting Political Unrest: Machine Learning Approach for Predicting Early Warning Signs Through Data Analytics
             </a>
         </li>
+
         <li>
-            <strong>Ms Misbah Kazmi<strong> |
-                <a href="https://slpg-fjwu.github.io/projects/misbah/">
-               Fake News Detection on Kashmir Issue Using Machine Learning Techniques
-             </a>
+            <strong>Ms Misbah Kazmi</strong> |
+            <a href="/projects/misbah/">
+                Fake News Detection on Kashmir Issue Using Machine Learning Techniques
+            </a>
         </li>
-        <li>
-             <strong>Ms Noor e Hira <strong>
-        </li>
-        <li>
-             <strong>Ms Yusra Anees <strong>
-        </li>
+
+        <li><strong>Ms Noor e Hira</strong></li>
+
+        <li><strong>Ms Yusra Anees</strong></li>
 
     </ul>
 
 </div>
-
-
-
-
