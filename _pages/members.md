@@ -44,9 +44,9 @@ nav_order: 8
     <ul class="text-left">
         <li><strong>Mr Sami Ul Haq</strong></li>
     </ul>
-    
+
     <hr>
-    
+
     <!-- Graduate Alumni -->
     <h2 class="text-left">Graduate Alumni</h2>
     <ul class="text-left">
@@ -115,8 +115,65 @@ nav_order: 8
         </li>
 
         <li><strong>Ms Noor e Hira</strong></li>
-
         <li><strong>Ms Yusra Anees</strong></li>
+
+    </ul>
+
+    <hr>
+
+    <!-- Undergraduate Alumni -->
+    <h2 class="text-left">Undergraduate Alumni</h2>
+    <ul class="text-left">
+
+        <li>
+            <strong>Amna Nasir</strong> |
+            Real Time Conversion of Pakistan Sign Language using Deep Learning
+        </li>
+
+        <li>
+            <strong>Areeba Attique</strong> |
+            Pakistan Sign Language Conversion to Text using Artificial Intelligence Techniques
+        </li>
+
+        <li>
+            <strong>Asma Jahan</strong> |
+            AI Based Android Application for Conversion of Pakistan Sign Language to Text
+        </li>
+
+        <li>
+            <strong>Taliqa Muhib</strong> |
+            Deep Learning Based Detection of Renal Stones using Vision Transformers
+        </li>
+
+        <li>
+            <strong>Samra Ejaz</strong> |
+            Web Based Application of Renal Stones Detection using Vision Transformers
+        </li>
+
+        <li>
+            <strong>Iqra Hussain</strong> |
+            Corpus Creation for Punjabi Text to Speech using Deep Learning
+        </li>
+
+        <li>
+            <strong>Minahal Fatima</strong> |
+            Design and Analysis of Punjabi Text to Speech System using Tacotron 2
+        </li>
+
+        <li>
+            <strong>Rabbia Ramzan</strong> |
+            Fake News Classification using Deep Learning Techniques
+        </li>
+
+        <li>
+            <strong>Ayesha Bashir</strong> |
+            Comprehensive Study of Fake News Detection in Pakistani Perspective
+        </li>
+
+        <li>
+            <strong>Tahira Bibi</strong> |
+            Design and Analysis of a Deep Learning Framework for Detecting Fake News
+        </li>
 
     </ul>
 
