@@ -111,11 +111,16 @@ nav_order: 8
                Fake News Detection on Kashmir Issue Using Machine Learning Techniques
          
         </li>
-        <li>Ms Noor e Hira</li>
-        <li>Ms Yusra Anees</li>
+        <li>
+             <strong>Ms Noor e Hira <strong>
+        </li>
+        <li>
+             <strong>Ms Yusra Anees <strong>
+        </li>
 
     </ul>
 
 </div>
+
 
 
