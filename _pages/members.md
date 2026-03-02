@@ -8,7 +8,6 @@ nav_order: 8
 ---
 
 <div class="container text-center">
-<div class="container">
 
     <!-- Principal Investigator -->
     <h2 class="mt-4">Principal Investigator</h2>
@@ -22,7 +21,7 @@ nav_order: 8
 
     <hr>
 
-    <!-- ================= Graduate ================= -->
+    <!-- Graduate Students -->
     <h2>Graduate Students</h2>
     <div class="row justify-content-center">
 
@@ -59,12 +58,48 @@ nav_order: 8
             </a>
         </li>
 
-        <li>Ms Sheema Firdous</li>
-        <li>Ms Humaira Mehmood</li>
-        <li>Ms Rabbia Tanveer Ahmed</li>
-        <li>Ms Shehzadi Ambreen</li>
-        <li>Ms Tayyaba</li>
-        <li>Ms Tania Afzal</li>
+        <li>
+            <strong>Ms Sheema Firdous</strong> |
+            <a href="/projects/7_Sheema_Firdous/">
+                Zero-Shot Neural Machine Translation System For Low-Resource Languages
+            </a>
+        </li>
+
+        <li>
+            <strong>Ms Humaira Mehmood</strong> |
+            <a href="/projects/6_Humaira_Mehmood/">
+                An End-to-End Speech Translation System
+            </a>
+        </li>
+
+        <li>
+            <strong>Ms Rabbia Tanveer Ahmed</strong> |
+            <a href="/projects/5_Rabbia_Ahmad/">
+                Context-Aware Financial Sentiment Analysis
+            </a>
+        </li>
+
+        <li>
+            <strong>Ms Shehzadi Ambreen</strong> |
+            <a href="/projects/3_Ambreen/">
+                Multilingual Neural Machine Translation System for Pakistani Languages
+            </a>
+        </li>
+
+        <li>
+            <strong>Ms Tayyaba</strong> |
+            <a href="/projects/4_Tayyaba/">
+                Sentence Simplification in Punjabi Language
+            </a>
+        </li>
+
+        <li>
+            <strong>Ms Tania Afzal</strong> |
+            <a href="/projects/2_Tania_Afzal/">
+                Creation of Corpora and Analysis of Semantic Distance Between Sentence Translation in Various Languages
+            </a>
+        </li>
+
         <li>Ms Ujala Beenish</li>
         <li>Ms Misbah Kazmi</li>
         <li>Ms Noor e Hira</li>
@@ -72,5 +107,4 @@ nav_order: 8
 
     </ul>
 
-</div>
 </div>
