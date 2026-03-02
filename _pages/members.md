@@ -99,8 +99,12 @@ nav_order: 8
                 Creation of Corpora and Analysis of Semantic Distance Between Sentence Translation in Various Languages
             </a>
         </li>
-
-        <li>Ms Ujala Beenish</li>
+        <li>
+            <strong>Ms Ujala Beenish</strong> |
+                <a href="https://slpg-fjwu.github.io/projects/ujala/">
+                Forecasting Political Unrest: Machine Learning Approach for Predicting Early Warning Signs Through Data Analytics
+            </a>
+        </li>
         <li>Ms Misbah Kazmi</li>
         <li>Ms Noor e Hira</li>
         <li>Ms Yusra Anees</li>
@@ -108,3 +112,4 @@ nav_order: 8
     </ul>
 
 </div>
+
