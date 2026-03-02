@@ -109,7 +109,7 @@ nav_order: 8
             <strong>Ms Misbah Kazmi<strong> |
                 <a href="https://slpg-fjwu.github.io/projects/misbah/">
                Fake News Detection on Kashmir Issue Using Machine Learning Techniques
-         
+             </a>
         </li>
         <li>
              <strong>Ms Noor e Hira <strong>
@@ -121,6 +121,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
