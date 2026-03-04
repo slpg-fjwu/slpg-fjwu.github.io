@@ -43,7 +43,7 @@ nav_order: 8
     <h2 class="text-left">PhD Alumni</h2>
     <ul class="text-left">
         <li>
-        <strong>Mr Sami Ul Haq</strong>|
+        <strong>Mr Sami Ul Haq</strong> |
          <a href="/projects/1_Context-aware%20NMT/">
                 Context-aware NMT using Selected Context
             </a>
@@ -183,5 +183,6 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
