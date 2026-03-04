@@ -2,7 +2,7 @@
 layout: page
 title: "Automatic Sentence Simplification in Low Resource Settings for Urdu"
 description: "The first monolingual parallel Urdu corpus for sentence simplification, combining lexical and syntactic simplification methods with human evaluation and automatic metric comparison."
-img: assets/img/urdu_simplification.png
+img: assets/img/yusra.png
 importance: 12
 category: work
 ---
@@ -29,4 +29,5 @@ category: work
 <p>This study introduces the first monolingual parallel Urdu corpus for sentence simplification, providing a foundational resource for developing automatic simplification systems for a low-resource language. The corpus contains 1220 simplified sentences with both lexical and syntactic levels, accompanied by a complex-to-simple lexicon of 490 entries. Human evaluation confirmed strong inter-annotator agreement and the quality of the simplification operations applied. The automatic simplification system built on the SimUR corpus achieved the best BLEU scores compared to systems built on other language corpora translated to Urdu, demonstrating that effective simplification systems can be built for Urdu even with small amounts of parallel data. This work lays the groundwork for future research in Urdu text simplification and accessibility-focused NLP.</p>
         </div>
     </div>
+
 </div>
