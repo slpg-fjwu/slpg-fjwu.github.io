@@ -125,7 +125,12 @@ nav_order: 8
             </a>
         </li>
         <li><strong>Ms Noor e Hira</strong></li>
-        <li><strong>Ms Yusra Anees</strong></li>
+        <li><strong>Ms Yusra Anees</strong> |
+            <a href="/projects/yusra/">
+                Automatic Sentence Simplification in Low Resource Settings for Urdu
+            </a>
+        
+        </li>
 
     </ul>
 
@@ -188,6 +193,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
