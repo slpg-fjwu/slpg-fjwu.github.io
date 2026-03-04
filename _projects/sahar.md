@@ -1,0 +1,32 @@
+---
+layout: page
+title: "Exploring Transfer Learning for Urdu Speech Synthesis"
+description: "A neural text-to-speech synthesis system for Urdu, a low-resource language, using transfer learning from English and Arabic parent models with custom-built Urdu speech corpora."
+img: assets/img/urdu_tts.png
+importance: 3
+category: work
+---
+<div class="container text-justify">
+<div class="row justify-content-center">
+        <div class="text-justify">
+<h2>Introduction</h2>
+<p>Speech synthesis, or Text-to-Speech (TTS), is an artificial speech production technology that transforms text into intelligible speech. With massive progress in high-resource languages, developing good quality TTS systems for low-resource languages remains a significant challenge. Urdu, despite being widely spoken across South Asia, is a zero-resource language in terms of publicly available TTS corpora. Neural methods, particularly Deep Neural Networks (DNN), have proven revolutionary in overcoming limitations of earlier approaches such as Hidden Markov Models, especially in modeling complex contextual dependencies like speaking style, intonation, and prosody. This study presents a neural TTS system for Urdu that leverages transfer learning to address the data scarcity problem, using pre-trained English and Arabic models as parent models and smaller custom-built Urdu corpora for fine-tuning.</p>
+
+<h2>Framework</h2>
+<p>The study uses Tacotron, an end-to-end neural TTS model that synthesizes speech directly from text without requiring manual feature engineering. The model architecture consists of three core components: an encoder that produces sequential representations of input text using a CBHG module (1-D convolution bank combined with a highway network and bidirectional GRU), a bottleneck layer with dropout for generalization, and a decoder that models the mel-scale spectrogram representing the relationship between text and speech. A post-processor refines decoder predictions into waveform-ready outputs, and Griffin-Lim is used to generate the final audio. Transfer learning is applied by initializing Urdu models with parameters from pre-trained English and Arabic models, then fine-tuning on Urdu speech data. Since no publicly available Urdu TTS corpus existed, four custom Urdu corpora were created from audio books and synthetic speech generation, covering both male and female voices with durations ranging from 1 to 11.6 hours.</p>
+
+<h2>Challenges and Solutions</h2>
+<p>The primary challenge was the complete absence of any publicly available Urdu speech corpus for TTS research. Training a standalone Urdu model from scratch on only four hours of data produced poor alignments, confirming that low-resource settings are insufficient for direct neural TTS training. Additionally, naturalness in synthesized speech is difficult to quantify, as listener preferences vary, and the use of synthetic speech in training data introduces noise and artificiality that affects perceived quality.</p>
+<p>To address data scarcity, transfer learning is adopted as the core strategy, where knowledge learned from a larger non-Urdu corpus is transferred to improve Urdu model performance with significantly less training data. Four Urdu speech corpora were created from diverse sources including YouTube audio books, Google TTS synthetic speech, and recorded Urdu audio books, covering a range of durations and speaker genders. A learning rate of 0.02 was determined through systematic experimentation, at which point the model began to show uniform attention alignments after 477,000 training steps. Human evaluation using Mean Opinion Scores (MOS) was conducted with forty native Urdu speakers who rated each model on a scale of one to five for both naturalness and intelligibility.</p>
+
+<h2>Evaluation and Performance</h2>
+<p>Five models were trained and evaluated: three using English as the parent language with different Urdu corpora for fine-tuning, one using Arabic as the parent language, and one standalone Urdu model. The English-to-Urdu transfer learning models consistently outperformed both the Arabic-parent model and the standalone Urdu model. Model M1, which used the English LJ Speech corpus as the parent and the synthetic FS1 Urdu corpus for fine-tuning, achieved a MOS naturalness score of 3.15 and a MOS intelligibility score of 3.45. Model M3, fine-tuned on the largest Urdu corpus of 11.6 hours, achieved the highest naturalness score of 3.40. The standalone Urdu model M5 scored the lowest across both naturalness (2.90) and intelligibility (2.60), confirming the advantage of transfer learning. More than sixty percent of the forty evaluation participants found the synthesized speech of M1 intelligible, though naturalness had more room for improvement due to the synthetic nature of the training corpus. The Arabic-parent model M4 showed weaker intelligibility at 2.80, suggesting that linguistic and phonetic similarity between parent and target languages plays an important role in transfer learning effectiveness.</p>
+
+<h2>Future Directions</h2>
+<p>A larger and richer Urdu speech corpus will significantly contribute to improved naturalness and intelligibility in future systems. Expanding the dataset with professionally recorded speech across diverse speakers and styles can reduce the robotic quality observed in current models. Future work can also explore more advanced neural vocoder architectures beyond Griffin-Lim to enhance audio fidelity. Extending the approach to other low-resource South Asian languages using similar transfer learning strategies remains a promising research direction.</p>
+
+<h2>Conclusion</h2>
+<p>This study demonstrates that transfer learning from high-resource languages is an effective strategy for building neural TTS systems for low-resource languages like Urdu. By initializing models with pre-trained English parameters and fine-tuning on custom-built Urdu corpora, satisfactory levels of intelligibility and naturalness were achieved without requiring large amounts of Urdu training data. English proved to be a more effective parent language than Arabic for Urdu TTS, likely due to broader phonetic coverage in the LJ Speech corpus. While the results are encouraging, the study acknowledges significant room for improvement, particularly in naturalness, which can be addressed through larger, higher-quality Urdu corpora and more advanced vocoder techniques.</p>
+        </div>
+    </div>
+</div>
