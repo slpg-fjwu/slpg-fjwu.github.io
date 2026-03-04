@@ -2,8 +2,8 @@
 layout: page
 title: "Exploring Transfer Learning for Urdu Speech Synthesis"
 description: "A neural text-to-speech synthesis system for Urdu, a low-resource language, using transfer learning from English and Arabic parent models with custom-built Urdu speech corpora."
-img: assets/img/urdu_tts.png
-importance: 3
+img: assets/img/sahar.png
+importance: 11
 category: work
 ---
 <div class="container text-justify">
@@ -29,4 +29,5 @@ category: work
 <p>This study demonstrates that transfer learning from high-resource languages is an effective strategy for building neural TTS systems for low-resource languages like Urdu. By initializing models with pre-trained English parameters and fine-tuning on custom-built Urdu corpora, satisfactory levels of intelligibility and naturalness were achieved without requiring large amounts of Urdu training data. English proved to be a more effective parent language than Arabic for Urdu TTS, likely due to broader phonetic coverage in the LJ Speech corpus. While the results are encouraging, the study acknowledges significant room for improvement, particularly in naturalness, which can be addressed through larger, higher-quality Urdu corpora and more advanced vocoder techniques.</p>
         </div>
     </div>
+
 </div>
