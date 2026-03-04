@@ -118,7 +118,12 @@ nav_order: 8
                 Fake News Detection on Kashmir Issue Using Machine Learning Techniques
             </a>
         </li>
-
+        <li>
+            <strong>Ms Sahar Jamal</strong> |
+            <a href="/projects/sahar/">
+                Exploring Transfer Learning for Urdu Speech Synthesis
+            </a>
+        </li>
         <li><strong>Ms Noor e Hira</strong></li>
         <li><strong>Ms Yusra Anees</strong></li>
 
@@ -183,6 +188,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
