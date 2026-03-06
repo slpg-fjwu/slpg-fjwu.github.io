@@ -280,7 +280,7 @@ scholar:
 
   style: apa
   locale: en
-
+  links-in-title: true
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
