@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About <a href='#'>FJWU</a>
+title: About 
 permalink: /
-subtitle: Rawalpindi, Pakistan.
+subtitle: <a href='#'>FJWU</a>, Rawalpindi, Pakistan.
 
 profile:
   align: right
