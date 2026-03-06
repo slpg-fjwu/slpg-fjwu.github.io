@@ -43,7 +43,7 @@ nav_order: 8
     <hr>
 
     <!-- Graduate Students -->
-    <h2 class="text-left">Graduate Student</h2>
+    <h2 class="text-left">Graduate Students</h2>
     <ul class="text-left">
         <li>
             <strong>Ms Shomaiza Zafar</strong> |
@@ -134,7 +134,7 @@ nav_order: 8
     <hr>
 
     <!-- Undergraduate Alumni -->
-    <h2 class="text-left">Undergraduate Alumni</h2>
+    <h2 class="text-left">Undergraduate Students</h2>
     <ul class="text-left">
 
         <li>
@@ -190,6 +190,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
