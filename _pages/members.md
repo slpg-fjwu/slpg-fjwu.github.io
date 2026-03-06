@@ -9,36 +9,20 @@ nav_order: 8
 
 <div class="container text-center">
 
+
+
     <!-- Principal Investigator -->
-    <h2 class="mt-4">Principal Investigator</h2>
-
-    <div class="row justify-content-center text-center">
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:200px; object-fit:cover;">
-            <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
-        </div>
-    </div>
-    <div class="row justify-content-center text-center">
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:200px; object-fit:cover;">
-            <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- Graduate Students -->
-    <h2>Graduate Students</h2>
+    <h2>Principal Investigators</h2>
     <div class="row justify-content-center">
 
         <div class="col-md-3">
             <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Ms Fiza Khurram</strong></p>
+            <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
         </div>
 
         <div class="col-md-3">
             <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Ms Shomaiza Zafar</strong></p>
+            <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
         </div>
 
     </div>
@@ -206,6 +190,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
