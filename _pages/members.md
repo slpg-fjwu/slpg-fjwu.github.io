@@ -18,6 +18,12 @@ nav_order: 8
             <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
         </div>
     </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-md-3">
+            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:200px; object-fit:cover;">
+            <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
+        </div>
+    </div>
 
     <hr>
 
@@ -39,8 +45,8 @@ nav_order: 8
 
     <hr>
 
-    <!-- PhD Alumni -->
-    <h2 class="text-left">PhD Alumni</h2>
+    <!-- PhD Student -->
+    <h2 class="text-left">PhD Student</h2>
     <ul class="text-left">
         <li>
         <strong>Mr Sami Ul Haq</strong> |
@@ -52,82 +58,89 @@ nav_order: 8
 
     <hr>
 
-    <!-- Graduate Alumni -->
-    <h2 class="text-left">Graduate Alumni</h2>
+    <!-- Graduate Students -->
+    <h2 class="text-left">Graduate Student</h2>
     <ul class="text-left">
+        <li>
+            <strong>Ms Shomaiza Zafar</strong> |
+            An Explainable Agentic AI Framework for stock price prediction in the Pakistan Stock Exchange(PSX) (In progress)
+        </li>
+
+        <li>
+            <strong>Ms Fiza Khurram</strong> |
+            Agentic AI (In progress)
+        </li>
 
         <li>
             <strong>Ms Fatima Mumtaz</strong> |
             <a href="/projects/8_Fatima/">
-                Exploring the Potential of Large Language Models for Counter Argument Generation
+                Exploring the Potential of Large Language Models for Counter Argument Generation (2025)
+            </a>
+        </li>
+        <li>
+            <strong>Ms Humaira Mehmood</strong> |
+            <a href="/projects/6_Humaira_Mehmood/">
+                An End-to-End Speech Translation System (2025)
+            </a>
+        </li>
+        <li>
+            <strong>Ms Rabbia Tanveer Ahmed</strong> |
+            <a href="/projects/5_Rabbia_Ahmad/">
+                Context-Aware Financial Sentiment Analysis (2025)
             </a>
         </li>
 
         <li>
             <strong>Ms Sheema Firdous</strong> |
             <a href="/projects/7_Sheema_Firdous/">
-                Zero-Shot Neural Machine Translation System For Low-Resource Languages
-            </a>
-        </li>
-
-        <li>
-            <strong>Ms Humaira Mehmood</strong> |
-            <a href="/projects/6_Humaira_Mehmood/">
-                An End-to-End Speech Translation System
-            </a>
-        </li>
-
-        <li>
-            <strong>Ms Rabbia Tanveer Ahmed</strong> |
-            <a href="/projects/5_Rabbia_Ahmad/">
-                Context-Aware Financial Sentiment Analysis
+                Zero-Shot Neural Machine Translation System For Low-Resource Languages (2024)
             </a>
         </li>
 
         <li>
             <strong>Ms Shehzadi Ambreen</strong> |
             <a href="/projects/3_Ambreen/">
-                Multilingual Neural Machine Translation System for Pakistani Languages
+                Multilingual Neural Machine Translation System for Pakistani Languages (2024)
             </a>
         </li>
 
         <li>
             <strong>Ms Tayyaba</strong> |
             <a href="/projects/4_Tayyaba/">
-                Sentence Simplification in Punjabi Language
+                Sentence Simplification in Punjabi Language (2024)
             </a>
         </li>
 
         <li>
             <strong>Ms Tania Afzal</strong> |
             <a href="/projects/2_Tania_Afzal/">
-                Creation of Corpora and Analysis of Semantic Distance Between Sentence Translation in Various Languages
+                Creation of Corpora and Analysis of Semantic Distance Between Sentence Translation in Various Languages (2023)
             </a>
         </li>
 
         <li>
             <strong>Ms Ujala Beenish</strong> |
             <a href="/projects/ujala/">
-                Forecasting Political Unrest: Machine Learning Approach for Predicting Early Warning Signs Through Data Analytics
+                Forecasting Political Unrest: Machine Learning Approach for Predicting Early Warning Signs Through Data Analytics (2021)
             </a>
         </li>
 
         <li>
             <strong>Ms Misbah Kazmi</strong> |
             <a href="/projects/misbah/">
-                Fake News Detection on Kashmir Issue Using Machine Learning Techniques
+                Fake News Detection on Kashmir Issue Using Machine Learning Techniques (2021)
             </a>
         </li>
         <li>
             <strong>Ms Sahar Jamal</strong> |
             <a href="/projects/sahar/">
-                Exploring Transfer Learning for Urdu Speech Synthesis
+                Exploring Transfer Learning for Urdu Speech Synthesis (2021)
             </a>
         </li>
         <li><strong>Ms Noor e Hira</strong></li>
         <li><strong>Ms Yusra Anees</strong> |
             <a href="/projects/yusra/">
-                Automatic Sentence Simplification in Low Resource Settings for Urdu
+                Automatic Sentence Simplification in Low Resource Settings for Urdu (2021)
             </a>
         
         </li>
@@ -193,6 +206,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
