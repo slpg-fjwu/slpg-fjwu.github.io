@@ -47,12 +47,12 @@ nav_order: 8
     <ul class="text-left">
         <li>
             <strong>Ms Shomaiza Zafar</strong> |
-            An Explainable Agentic AI Framework for stock price prediction in the Pakistan Stock Exchange(PSX) (In progress)
+            An Explainable Agentic AI Framework for stock price prediction in the Pakistan Stock Exchange(PSX) (In process)
         </li>
 
         <li>
             <strong>Ms Fiza Khurram</strong> |
-            Agentic AI (In progress)
+            Agentic AI (In process)
         </li>
 
         <li>
@@ -190,6 +190,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
