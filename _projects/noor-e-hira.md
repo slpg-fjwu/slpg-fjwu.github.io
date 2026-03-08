@@ -2,8 +2,10 @@
 layout: page
 title: Exploring Transfer Learning and Domain Data Selection for Bio-medical Translation
 description: A comprehensive study applying transfer learning and selective data training to improve Neural Machine Translation quality for the bio-medical domain, using Information Retrieval to select domain-relevant training data for English-French translation.
-img: assets/img/biomedical-translation.jpg
-importance: 7
+img: assets/img/noor-e-hira.png
+importance: 15
+related_publications: Exploring Transfer Learning and Domain Data Selection for the Biomedical Translation
+
 category: work
 ---
 
@@ -71,5 +73,6 @@ Future research in bio-medical NMT should focus on:
 ## Conclusion
 
 This study demonstrates the effectiveness of combining transfer learning with IR-based selective data training for bio-medical Neural Machine Translation. Data selective training, even with a smaller corpus, yields better domain adaptation results than using the full out-of-domain corpus.
+
 
 Tokenization was confirmed as a critical pre-processing step, significantly improving NMT system performance. Overall, the cascaded transfer learning approach proved highly effective, achieving substantial BLEU score improvements across all experimental configurations.
