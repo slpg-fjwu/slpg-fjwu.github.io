@@ -4,6 +4,7 @@ title: Context-Aware Financial Sentiment Analysis
 description: The detailed overview of Financial Domain Sentiment Analysis
 img: assets/img/sentiment.png
 importance: 5
+related_publications: ahmed2024leveraging
 category: work
 ---
 
