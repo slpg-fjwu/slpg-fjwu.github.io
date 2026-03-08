@@ -121,7 +121,12 @@ nav_order: 8
                 Exploring Transfer Learning for Urdu Speech Synthesis (2021)
             </a>
         </li>
-        <li><strong>Ms Noor e Hira</strong></li>
+        <li><strong>Ms Noor e Hira</strong> |
+            <a href="https://slpg-fjwu.github.io/projects/noor-e-hira/">
+                Exploring Transfer Learning and Domain Data Selection for Bio-medical Translation (2024)
+            </a>
+        
+        </li>
         <li><strong>Ms Yusra Anees</strong> |
             <a href="/projects/yusra/">
                 Automatic Sentence Simplification in Low Resource Settings for Urdu (2021)
@@ -190,6 +195,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
