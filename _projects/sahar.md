@@ -4,6 +4,7 @@ title: "Exploring Transfer Learning for Urdu Speech Synthesis"
 description: "A neural text-to-speech synthesis system for Urdu, a low-resource language, using transfer learning from English and Arabic parent models with custom-built Urdu speech corpora."
 img: assets/img/sahar.png
 importance: 11
+related_publications: jamal2022exploring
 category: work
 ---
 <div class="container text-justify">
@@ -31,3 +32,4 @@ category: work
     </div>
 
 </div>
+
