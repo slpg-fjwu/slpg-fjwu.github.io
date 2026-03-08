@@ -4,6 +4,7 @@ title: Creation of Corpora and Analysis of Semantic Distance Between Sentence Tr
 description: A comprehensive overview oevaluates the semantic similarity between multilingual translations of the Holy Quran and its original Arabic version, employing Large Language Models (LLMs) and cosine similarity distance calculations.
 img: assets/img/semantic-diff.jpg
 importance: 7
+related_publications: afzal2025fine
 category: work
 ---
 
