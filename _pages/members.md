@@ -123,7 +123,7 @@ nav_order: 8
         </li>
         <li><strong>Ms Noor e Hira</strong> |
             <a href="https://slpg-fjwu.github.io/projects/noor-e-hira/">
-                Exploring Transfer Learning and Domain Data Selection for Bio-medical Translation (2024)
+                Exploring Transfer Learning and Domain Data Selection for Bio-medical Translation (2021)
             </a>
         
         </li>
@@ -195,6 +195,7 @@ nav_order: 8
     </ul>
 
 </div>
+
 
 
 
