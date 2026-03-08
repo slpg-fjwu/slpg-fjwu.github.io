@@ -4,6 +4,7 @@ title: "Automatic Sentence Simplification in Low Resource Settings for Urdu"
 description: "The first monolingual parallel Urdu corpus for sentence simplification, combining lexical and syntactic simplification methods with human evaluation and automatic metric comparison."
 img: assets/img/yusra.png
 importance: 12
+related_publications: anees2021automatic
 category: work
 ---
 <div class="container text-justify">
@@ -31,4 +32,5 @@ category: work
     </div>
 
 </div>
+
 
