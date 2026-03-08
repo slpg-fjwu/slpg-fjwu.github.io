@@ -4,6 +4,7 @@ title: An End-to-End Speech Translation System
 description: A comprehensive overview of an end-to-end speech translation system for English to Urdu language direction, with a focus on overcoming data scarcity issues.
 img: assets/img/speech-speech.png
 importance: 7
+related_publications: mehmood2025human
 category: work
 ---
 
