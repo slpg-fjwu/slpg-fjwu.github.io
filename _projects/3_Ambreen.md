@@ -5,6 +5,7 @@ description: A system discription of Pakistani regional language's NMT
 img: assets/img/MNMT.png
 # redirect: https://unsplash.com
 importance: 3
+related_publications: ambreen2023neural
 category: work
 ---
 
