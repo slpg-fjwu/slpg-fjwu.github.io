@@ -4,6 +4,7 @@ title: "Fake News Detection on Kashmir Issue Using Machine Learning Techniques"
 description: "A machine learning approach to detect fake news during the revocation of Article 370 in Kashmir as a focusing event, using Twitter data and user profile parameters."
 img: assets/img/flowchart%20(1).png
 importance: 10
+related_publications: kazmi2025fake
 category: work
 ---
 <div class="container text-justify">
@@ -29,4 +30,5 @@ category: work
 <p>This study demonstrates that traditional machine learning models are effective for fake news detection in focusing events, even under the constraint of a small and narrow dataset. Random Forest and Logistic Regression achieved the highest accuracy of 82%, confirming the viability of lightweight ML approaches for real-time, event-specific misinformation detection. The combination of user profile features and linguistic patterns provides both strong predictive performance and practical interpretability. The framework holds significant value for journalists, fact-checking organizations, and policy response teams seeking to monitor and counter misinformation during rapidly evolving political or crisis events.</p>
         </div>
     </div>
+
 </div>
