@@ -4,6 +4,7 @@ title: Zero-Shot Neural Machine Translation System For Low-Resource Languages
 description: A comprehensive overview of zero-shot neural machine translation systems for low-resource languages.
 img: assets/img/zero-shot.png
 importance: 7
+related_publications: firdous2023biomedical
 category: work
 ---
 
