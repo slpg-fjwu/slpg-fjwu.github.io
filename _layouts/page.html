@@ -10,6 +10,9 @@ layout: default
             {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
             <h4>Published Articles</h4>
             <div class="publications" style="font-size: 0.85rem;">
+              <style>
+                .publications abbr { display: none; }
+              </style>
               {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
             </div>
             {%- endif %}
