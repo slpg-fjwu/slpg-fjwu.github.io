@@ -8,8 +8,8 @@ layout: default
             <p class="post-description justify-text">{{ page.description }}</p>
             {%- if page.related_publications != null and page.related_publications.size > 0 -%}
             {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-            <h2>Published Articles</h2>
-            <div class="publications">
+            <h4>Published Articles</h4>
+            <div class="publications" style="font-size: 0.85rem;">
               {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
             </div>
             {%- endif %}
