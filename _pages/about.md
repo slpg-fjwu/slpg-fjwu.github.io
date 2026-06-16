@@ -2,7 +2,7 @@
 layout: about
 title: About 
 permalink: /
-subtitle: <a href='#'>FJWU</a>
+subtitle: <a href='#'></a>
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true
 Rawalpindi, Pakistan.
 
 
-Welcome to the Speech and Language Processing Group (SLPG) at Fatima Jinnah Women University. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
+Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
 
 * Universal natural language processing and transfer learning
 * Natural language processing for educational applications
