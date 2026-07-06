@@ -17,6 +17,15 @@ social: true
 ---
 Rawalpindi, Pakistan.
 
+Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
+
+* Universal natural language processing and transfer learning
+* Natural language processing for educational applications
+* Context-aware machine translation
+* Low-resource machine translation
+
+More details about our project can be found [here](https://slpg-fjwu.github.io/graduate_research/). Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. Our models are found [here](https://github.com/slpg-fjwu).
+
 {% capture pubs_html %}{% bibliography --file papers %}{% endcapture %}
 {% assign pub_count = pubs_html | split: '<li' | size | minus: 1 %}
 
@@ -97,12 +106,3 @@ document.addEventListener("DOMContentLoaded", function () {
   counters.forEach((counter) => observer.observe(counter));
 });
 </script>
-
-Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
-
-* Universal natural language processing and transfer learning
-* Natural language processing for educational applications
-* Context-aware machine translation
-* Low-resource machine translation
-
-More details about our project can be found [here](https://slpg-fjwu.github.io/graduate_research/). Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. Our models are found [here](https://github.com/slpg-fjwu).
