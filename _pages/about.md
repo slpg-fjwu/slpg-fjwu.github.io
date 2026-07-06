@@ -140,20 +140,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
   <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
-    <div style="background: #fbeaf0; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>UNGA CounterArg</strong>
-      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Counter-argument dataset from UN General Assembly debates.</p>
-      <a href="https://huggingface.co/datasets/SLPG/UNGA-CounterArg" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
-    </div>
-  </div>
-  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
-    <div style="background: #eeedfe; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Punjabi Transliteration Corpus</strong>
-      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Corpus for Shahmukhi–Gurmukhi transliteration research.</p>
-      <a href="https://huggingface.co/datasets/SLPG/Punjabi_Transliteration_Corpus" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
-    </div>
-  </div>
-  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
     <div style="background: #eaf3de; border-radius: 12px; padding: 1rem; height: 100%;">
       <strong>Biomedical EN-FR Corpus</strong>
       <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Parallel corpus for English-French biomedical translation.</p>
