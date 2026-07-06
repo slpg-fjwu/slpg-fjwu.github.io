@@ -84,7 +84,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: #eaf3de; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Speech Processing</strong>
+      <strong>Agentic AI</strong>
     </div>
   </div>
 </div>
