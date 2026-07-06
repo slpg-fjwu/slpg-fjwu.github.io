@@ -4,6 +4,7 @@ title: Sentence Simplification in Punjabi Language
 description: Working on creating  Punjabi  Shahmukhi simplification corpus
 img: assets/img/sentence simplification.png
 importance: 4
+related_publications: shehzad2026automatic
 category: work
 ---
 
