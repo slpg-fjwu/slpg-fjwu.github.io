@@ -179,34 +179,41 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 <h4>Collaborating Institutions</h4>
 <div class="marquee-wrap" style="overflow: hidden; position: relative; margin: 1rem 0 2rem; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);">
-  <div class="marquee-track" style="display: flex; width: max-content; animation: scrollLeft 40s linear infinite;">
-    <div class="marquee-group" style="display: flex; gap: 3rem; padding-right: 3rem;">
-      <span>International Islamic University, Islamabad</span>
-      <span>Fatima Jinnah Women University</span>
-      <span>NUST</span>
-      <span>FAST-NUCES, Lahore</span>
-      <span>LISN-CNRS, Group TLP, Université Paris-Saclay, France</span>
-      <span>LISN-CNRS, Group ILES, Université Paris-Saclay, France</span>
-      <span>LIUM, Université du Maine, France</span>
-      <span>Université Paris Diderot (Paris 7), France</span>
-      <span>Prince Sultan University, Saudi Arabia</span>
+  <div class="marquee-track" style="display: flex; width: max-content; animation: scrollLeft 45s linear infinite;">
+    <div class="marquee-group" style="display: flex; gap: 1rem; padding-right: 1rem;">
+      <span class="inst-pill" style="background:#e1f5ee;">International Islamic University, Islamabad</span>
+      <span class="inst-pill" style="background:#faece7;">Fatima Jinnah Women University</span>
+      <span class="inst-pill" style="background:#eaf3de;">NUST</span>
+      <span class="inst-pill" style="background:#fbeaf0;">FAST-NUCES, Lahore</span>
+      <span class="inst-pill" style="background:#eeedfe;">LISN-CNRS, Group TLP, Université Paris-Saclay, France</span>
+      <span class="inst-pill" style="background:#e6f1fb;">LISN-CNRS, Group ILES, Université Paris-Saclay, France</span>
+      <span class="inst-pill" style="background:#faeeda;">LIUM, Université du Maine, France</span>
+      <span class="inst-pill" style="background:#f1eee4;">Université Paris Diderot (Paris 7), France</span>
+      <span class="inst-pill" style="background:#e1f5ee;">Prince Sultan University, Saudi Arabia</span>
     </div>
-    <div class="marquee-group" style="display: flex; gap: 3rem; padding-right: 3rem;" aria-hidden="true">
-      <span>International Islamic University, Islamabad</span>
-      <span>Fatima Jinnah Women University</span>
-      <span>NUST</span>
-      <span>FAST-NUCES, Lahore</span>
-      <span>LISN-CNRS, Group TLP, Université Paris-Saclay, France</span>
-      <span>LISN-CNRS, Group ILES, Université Paris-Saclay, France</span>
-      <span>LIUM, Université du Maine, France</span>
-      <span>Université Paris Diderot (Paris 7), France</span>
-      <span>Prince Sultan University, Saudi Arabia</span>
+    <div class="marquee-group" style="display: flex; gap: 1rem; padding-right: 1rem;" aria-hidden="true">
+      <span class="inst-pill" style="background:#e1f5ee;">International Islamic University, Islamabad</span>
+      <span class="inst-pill" style="background:#faece7;">Fatima Jinnah Women University</span>
+      <span class="inst-pill" style="background:#eaf3de;">NUST</span>
+      <span class="inst-pill" style="background:#fbeaf0;">FAST-NUCES, Lahore</span>
+      <span class="inst-pill" style="background:#eeedfe;">LISN-CNRS, Group TLP, Université Paris-Saclay, France</span>
+      <span class="inst-pill" style="background:#e6f1fb;">LISN-CNRS, Group ILES, Université Paris-Saclay, France</span>
+      <span class="inst-pill" style="background:#faeeda;">LIUM, Université du Maine, France</span>
+      <span class="inst-pill" style="background:#f1eee4;">Université Paris Diderot (Paris 7), France</span>
+      <span class="inst-pill" style="background:#e1f5ee;">Prince Sultan University, Saudi Arabia</span>
     </div>
   </div>
 </div>
 
 <style>
-.marquee-track span { color: #888; font-size: 0.9rem; white-space: nowrap; }
+.inst-pill {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
 @keyframes scrollLeft {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
