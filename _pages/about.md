@@ -19,11 +19,6 @@ Rawalpindi, Pakistan.
 
 Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language. Some of our current areas of interest are:
 
-* Universal natural language processing and transfer learning
-* Natural language processing for educational applications
-* Context-aware machine translation
-* Low-resource machine translation
-
 More details about our project can be found [here](https://slpg-fjwu.github.io/graduate_research/). Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. Our models are found [here](https://github.com/slpg-fjwu).
 
 {% capture pubs_html %}{% bibliography --file papers %}{% endcapture %}
@@ -39,7 +34,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
     <p style="color: #888; font-size: 0.9rem;">Awards</p>
   </div>
   <div class="col">
-    <h2 class="counter" data-target="30+">0</h2>
+    <h2 class="counter" data-target="30">0</h2>
     <p style="color: #888; font-size: 0.9rem;">Projects</p>
   </div>
   <div class="col">
@@ -57,7 +52,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: #e1f5ee; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>NLP for Education</strong>
+      <strong>NLP for Educational Applications</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
@@ -68,6 +63,26 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: #fbeaf0; border-radius: 12px; padding: 1rem; height: 100%;">
       <strong>Low-resource Machine Translation</strong>
+    </div>
+  </div>
+    <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
+    <div style="background: #eeedfe; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>Argument Mining</strong>
+    </div>
+  </div>
+  <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
+    <div style="background: #e6f1fb; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>RAG (Retrieval-Augmented Generation)</strong>
+    </div>
+  </div>
+  <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
+    <div style="background: #faeeda; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>Large Language Models (LLMs)</strong>
+    </div>
+  </div>
+  <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
+    <div style="background: #eaf3de; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>Speech Processing</strong>
     </div>
   </div>
 </div>
