@@ -12,7 +12,7 @@ profile:
 
 news: true
 latest_posts: true
-selected_papers: true
+selected_papers: false
 social: true
 ---
 Rawalpindi, Pakistan.
