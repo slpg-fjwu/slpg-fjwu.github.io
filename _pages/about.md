@@ -32,16 +32,16 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
     <p style="color: #888; font-size: 0.9rem;">Publications</p>
   </div>
   <div class="col">
+    <h2 class="counter" data-target="14">0</h2>
+    <p style="color: #888; font-size: 0.9rem;">Models</p>
+  </div>
+  <div class="col">
+    <h2 class="counter" data-target="6">0</h2>
+    <p style="color: #888; font-size: 0.9rem;">Datasets</p>
+  </div>
+  <div class="col">
     <h2 class="counter" data-target="3">0</h2>
     <p style="color: #888; font-size: 0.9rem;">Awards</p>
-  </div>
-  <div class="col">
-    <h2 class="counter" data-target="30">0</h2>
-    <p style="color: #888; font-size: 0.9rem;">Projects</p>
-  </div>
-  <div class="col">
-    <h2 class="counter" data-target="2">0</h2>
-    <p style="color: #888; font-size: 0.9rem;">Institutions</p>
   </div>
 </div>
 
