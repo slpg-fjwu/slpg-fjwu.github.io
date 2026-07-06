@@ -4,6 +4,7 @@ title: "Exploring the Potential of Large Language Models for Counter Argument Ge
 description: "A comprehensive exploration of Large Language Models for counter-argument generation across formal diplomatic discourse and informal online debates."
 img: assets/img/counterarg.png
 importance: 8
+related_publications: fatima2026temporal
 category: work
 ---
 
