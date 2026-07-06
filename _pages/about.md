@@ -39,7 +39,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
     <p style="color: #888; font-size: 0.9rem;">Awards</p>
   </div>
   <div class="col">
-    <h2 class="counter" data-target="10">0</h2>
+    <h2 class="counter" data-target="30+">0</h2>
     <p style="color: #888; font-size: 0.9rem;">Projects</p>
   </div>
   <div class="col">
