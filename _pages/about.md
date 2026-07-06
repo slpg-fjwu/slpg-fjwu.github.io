@@ -123,6 +123,51 @@ document.addEventListener("DOMContentLoaded", function () {
   counters.forEach((counter) => observer.observe(counter));
 });
 </script>
+<h4>Datasets</h4>
+<div class="row" style="margin: 1rem 0 2rem;">
+  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
+    <div style="background: #e1f5ee; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>SLPG Humor Generation</strong>
+      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">12.1k rows — dataset for humor and linguistic creativity tasks.</p>
+      <a href="https://huggingface.co/datasets/SLPG/slpg_humor_generation" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
+    </div>
+  </div>
+  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
+    <div style="background: #faece7; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>UNGA</strong>
+      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">7.16k rows — UN General Assembly debate data.</p>
+      <a href="https://huggingface.co/datasets/SLPG/UNGA" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
+    </div>
+  </div>
+  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
+    <div style="background: #fbeaf0; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>UNGA CounterArg</strong>
+      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Counter-argument dataset from UN General Assembly debates.</p>
+      <a href="https://huggingface.co/datasets/SLPG/UNGA-CounterArg" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
+    </div>
+  </div>
+  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
+    <div style="background: #eeedfe; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>Punjabi Transliteration Corpus</strong>
+      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Corpus for Shahmukhi–Gurmukhi transliteration research.</p>
+      <a href="https://huggingface.co/datasets/SLPG/Punjabi_Transliteration_Corpus" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
+    </div>
+  </div>
+  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
+    <div style="background: #eaf3de; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>Biomedical EN-FR Corpus</strong>
+      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Parallel corpus for English-French biomedical translation.</p>
+      <a href="https://huggingface.co/datasets/SLPG/Biomedical_EN_FR_Corpus" target="_blank" style="font-size: 0.85rem;">View on HuggingFace →</a>
+    </div>
+  </div>
+  <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
+    <div style="background: #faeeda; border-radius: 12px; padding: 1rem; height: 100%;">
+      <strong>All Datasets & Models</strong>
+      <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Explore our complete collection on HuggingFace.</p>
+      <a href="https://huggingface.co/SLPG" target="_blank" style="font-size: 0.85rem;">View HuggingFace profile →</a>
+    </div>
+  </div>
+</div>
 <div id="recent-pubs-source" style="display: none;">
   {% bibliography --file papers %}
 </div>
