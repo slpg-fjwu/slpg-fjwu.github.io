@@ -54,7 +54,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: #e1f5ee; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>NLP for Educational Applications</strong>
+      <strong>Natural Language Processing for Educational Applications</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
@@ -74,7 +74,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: #e6f1fb; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>RAG (Retrieval-Augmented Generation)</strong>
+      <strong>RAG(Retrieval-Augmented Generation)</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
