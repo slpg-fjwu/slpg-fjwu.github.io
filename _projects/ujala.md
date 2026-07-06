@@ -4,6 +4,7 @@ title: "Forecasting Political Unrest: Machine Learning Approach for Predicting E
 description: "A comprehensive study comparing 13 machine learning frameworks for forecasting early warning signs of political violence using multilingual news data and the ACLED dataset."
 img: assets/img/ujala.png
 importance: 9
+related_publications: beenish2026comparative
 category: work
 ---
 <div class="container text-justify">
