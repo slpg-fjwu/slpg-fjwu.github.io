@@ -177,3 +177,38 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
+<h4>Collaborating Institutions</h4>
+<div class="marquee-wrap" style="overflow: hidden; position: relative; margin: 1rem 0 2rem; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);">
+  <div class="marquee-track" style="display: flex; width: max-content; animation: scrollLeft 40s linear infinite;">
+    <div class="marquee-group" style="display: flex; gap: 3rem; padding-right: 3rem;">
+      <span>International Islamic University, Islamabad</span>
+      <span>Fatima Jinnah Women University</span>
+      <span>NUST</span>
+      <span>FAST-NUCES, Lahore</span>
+      <span>LISN-CNRS, Group TLP, Université Paris-Saclay, France</span>
+      <span>LISN-CNRS, Group ILES, Université Paris-Saclay, France</span>
+      <span>LIUM, Université du Maine, France</span>
+      <span>Université Paris Diderot (Paris 7), France</span>
+      <span>Prince Sultan University, Saudi Arabia</span>
+    </div>
+    <div class="marquee-group" style="display: flex; gap: 3rem; padding-right: 3rem;" aria-hidden="true">
+      <span>International Islamic University, Islamabad</span>
+      <span>Fatima Jinnah Women University</span>
+      <span>NUST</span>
+      <span>FAST-NUCES, Lahore</span>
+      <span>LISN-CNRS, Group TLP, Université Paris-Saclay, France</span>
+      <span>LISN-CNRS, Group ILES, Université Paris-Saclay, France</span>
+      <span>LIUM, Université du Maine, France</span>
+      <span>Université Paris Diderot (Paris 7), France</span>
+      <span>Prince Sultan University, Saudi Arabia</span>
+    </div>
+  </div>
+</div>
+
+<style>
+.marquee-track span { color: #888; font-size: 0.9rem; white-space: nowrap; }
+@keyframes scrollLeft {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+</style>
