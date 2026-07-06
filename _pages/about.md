@@ -21,6 +21,30 @@ Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded
 
 More details about our project can be found [here](https://slpg-fjwu.github.io/graduate_research/). Also check out the our latest publications and participation in [WMT](http://www2.statmt.org/wmt23/) workshops. Our models are found [here](https://github.com/slpg-fjwu).
 
+<div id="recent-pubs-source" style="display: none;">
+  {% bibliography --file papers %}
+</div>
+
+<div id="recent-publications" style="margin: 1.5rem 0;">
+  <p style="font-size: 0.85rem; color: #666; font-weight: 600; margin-bottom: 10px;">📄 RECENT PUBLICATIONS</p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const source = document.querySelectorAll("#recent-pubs-source li");
+  const container = document.getElementById("recent-publications");
+
+  const topThree = Array.from(source).slice(0, 3);
+
+  topThree.forEach(function (item) {
+    const card = document.createElement("div");
+    card.style.cssText = "background: #f1eee4; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 10px; border-left: 4px solid #7F77DD;";
+    card.innerHTML = item.innerHTML;
+    container.appendChild(card);
+  });
+});
+</script>
+
 {% capture pubs_html %}{% bibliography --file papers %}{% endcapture %}
 {% assign pub_count = pubs_html | split: '<li' | size | minus: 1 %}
 
