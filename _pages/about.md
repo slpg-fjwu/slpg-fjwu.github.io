@@ -86,46 +86,54 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
   </div>
 </div>
 
-<h4>Research Areas</h4>
+<h4 style="text-align: center; margin-bottom: 1.5rem;">Our Research Areas</h4>
 <div class="row" style="margin: 1rem 0 2rem;">
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #f1eee4; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Universal NLP & Transfer Learning</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-brain" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Large Language Models</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #e1f5ee; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Natural Language Processing for Educational Applications</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-wave-square" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Speech Recognition</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #faece7; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Context-aware Machine Translation</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-language" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Machine Translation</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #fbeaf0; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Low-resource Machine Translation</strong>
-    </div>
-  </div>
-    <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #eeedfe; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Argument Mining</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-comments" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Natural Language Processing</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #e6f1fb; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>RAG(Retrieval-Augmented Generation)</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-microphone" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Speech Synthesis</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #faeeda; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Large Language Models (LLMs)</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-sitemap" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Argument Mining</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
-    <div style="background: #eaf3de; border-radius: 12px; padding: 1rem; height: 100%;">
-      <strong>Agentic AI</strong>
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-database" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">RAG</strong>
+    </div>
+  </div>
+  <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
+    <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
+      <i class="fa-solid fa-robot" style="font-size: 1.8rem; color: #4338ca; margin-bottom: 10px; display: block;"></i>
+      <strong style="font-size: 0.9rem;">Agentic AI</strong>
     </div>
   </div>
 </div>
