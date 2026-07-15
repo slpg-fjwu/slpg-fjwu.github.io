@@ -15,6 +15,37 @@ latest_posts: true
 selected_papers: false
 social: true
 ---
+<div class="slpg-hero" style="position: relative; height: 340px; margin: 1rem 0 2rem; display: flex; align-items: center; justify-content: center;">
+  <div class="slpg-globe" style="width: 130px; height: 130px; border-radius: 50%; background: #4338ca; display: flex; align-items: center; justify-content: center; animation: slpgSpin 18s linear infinite; z-index: 2;">
+    <i class="fa-solid fa-earth-asia" style="font-size: 3.2rem; color: #fff;"></i>
+  </div>
+
+  <div class="slpg-bubble" style="position: absolute; top: 8%; left: 8%; background: #4338ca; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 4.5s ease-in-out infinite;">اردو</div>
+  <div class="slpg-bubble" style="position: absolute; top: 5%; right: 10%; background: #1D9E75; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 5s ease-in-out infinite 0.4s;">English</div>
+  <div class="slpg-bubble" style="position: absolute; top: 42%; left: 2%; background: #D85A30; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 4.2s ease-in-out infinite 0.8s;">پنجابی</div>
+  <div class="slpg-bubble" style="position: absolute; top: 40%; right: 2%; background: #D4537E; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 4.8s ease-in-out infinite 1.2s;">سنڌي</div>
+  <div class="slpg-bubble" style="position: absolute; bottom: 10%; left: 14%; background: #BA7517; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 5.2s ease-in-out infinite 0.6s;">پښتو</div>
+  <div class="slpg-bubble" style="position: absolute; bottom: 8%; right: 12%; background: #185FA5; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 4.6s ease-in-out infinite 1s;">بلوچی</div>
+  <div class="slpg-bubble" style="position: absolute; top: 78%; left: 42%; background: #712B13; color: #fff; padding: 10px 18px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; animation: slpgFloat 5s ease-in-out infinite 1.4s;">سرائیکی</div>
+</div>
+
+<style>
+@keyframes slpgFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+@keyframes slpgSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media (max-width: 600px) {
+  .slpg-hero { height: 260px; }
+  .slpg-globe { width: 90px; height: 90px; }
+  .slpg-globe i { font-size: 2.2rem !important; }
+  .slpg-bubble { padding: 6px 12px !important; font-size: 0.8rem !important; }
+}
+</style>
+
 Rawalpindi, Pakistan.
 
 Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language.
