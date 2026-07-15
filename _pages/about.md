@@ -24,7 +24,7 @@ More details about our project can be found [here](https://slpg-fjwu.github.io/g
 
 <style>
 a.hf-link {
-  color: #6f42c1;
+  color: #b916b0;
   transition: opacity 0.2s ease;
 }
 a.hf-link:hover {
@@ -33,7 +33,7 @@ a.hf-link:hover {
 </style>
 
 <h4 style="text-align: center; margin-bottom: 1rem;">Collaborating Institutions</h4>
-<div class="marquee-wrap" style="overflow: hidden; position: relative; margin: 1rem 0 2rem; background: #6f42c1; border-radius: 12px; padding: 0.9rem 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);">
+<div class="marquee-wrap" style="overflow: hidden; position: relative; margin: 1rem 0 2rem; background: #b916b0; border-radius: 12px; padding: 0.9rem 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);">
   <div class="marquee-track" style="display: flex; width: max-content; animation: scrollLeft 45s linear infinite;">
     <div class="marquee-group" style="display: flex; gap: 2.5rem; padding-right: 2.5rem;">
       <span class="inst-pill">International Islamic University, Islamabad</span>
@@ -80,28 +80,28 @@ a.hf-link:hover {
 <div class="row text-center" style="margin: 2rem 0;">
   <div class="col">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem 0.5rem;">
-      <i class="fa-solid fa-book" style="font-size: 1.4rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-book" style="font-size: 1.4rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <h2 class="counter" data-target="{{ pub_count }}" style="margin: 0; font-size: 1.6rem;">0</h2>
       <p style="color: #888; font-size: 0.85rem; margin: 4px 0 0;">Publications</p>
     </div>
   </div>
   <div class="col">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem 0.5rem;">
-      <i class="fa-solid fa-cube" style="font-size: 1.4rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-cube" style="font-size: 1.4rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <h2 class="counter" data-target="14" style="margin: 0; font-size: 1.6rem;">0</h2>
       <p style="color: #888; font-size: 0.85rem; margin: 4px 0 0;">Models</p>
     </div>
   </div>
   <div class="col">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem 0.5rem;">
-      <i class="fa-solid fa-database" style="font-size: 1.4rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-database" style="font-size: 1.4rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <h2 class="counter" data-target="6" style="margin: 0; font-size: 1.6rem;">0</h2>
       <p style="color: #888; font-size: 0.85rem; margin: 4px 0 0;">Datasets</p>
     </div>
   </div>
   <div class="col">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem 0.5rem;">
-      <i class="fa-solid fa-trophy" style="font-size: 1.4rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-trophy" style="font-size: 1.4rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <h2 class="counter" data-target="3" style="margin: 0; font-size: 1.6rem;">0</h2>
       <p style="color: #888; font-size: 0.85rem; margin: 4px 0 0;">Awards</p>
     </div>
@@ -112,49 +112,49 @@ a.hf-link:hover {
 <div class="row" style="margin: 1rem 0 2rem;">
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-brain" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-brain" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Large Language Models</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-wave-square" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-wave-square" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Speech Recognition</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-language" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-language" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Machine Translation</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-comments" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-comments" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Natural Language Processing</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-microphone" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-microphone" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Speech Synthesis</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-sitemap" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-sitemap" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Argument Mining</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-magnifying-glass" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-magnifying-glass" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">RAG</strong>
     </div>
   </div>
   <div class="col-6 col-md-3" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%; text-align: center;">
-      <i class="fa-solid fa-robot" style="font-size: 1.8rem; color: #6f42c1; margin-bottom: 10px; display: block;"></i>
+      <i class="fa-solid fa-robot" style="font-size: 1.8rem; color: #b916b0; margin-bottom: 10px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Agentic AI</strong>
     </div>
   </div>
@@ -164,7 +164,7 @@ a.hf-link:hover {
 <div class="row" style="margin: 1rem 0 2rem;">
   <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <i class="fa-solid fa-database" style="font-size: 1.2rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-database" style="font-size: 1.2rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <strong style="font-size: 0.9rem;">SLPG Humor Generation</strong>
       <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">12.1k rows — dataset for humor and linguistic creativity tasks.</p>
       <a href="https://huggingface.co/datasets/SLPG/slpg_humor_generation" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;">View on HuggingFace →</a>
@@ -172,7 +172,7 @@ a.hf-link:hover {
   </div>
   <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <i class="fa-solid fa-database" style="font-size: 1.2rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-database" style="font-size: 1.2rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <strong style="font-size: 0.9rem;">UNGA</strong>
       <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">7.16k rows — UN General Assembly debate data.</p>
       <a href="https://huggingface.co/datasets/SLPG/UNGA" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;">View on HuggingFace →</a>
@@ -180,7 +180,7 @@ a.hf-link:hover {
   </div>
   <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <i class="fa-solid fa-database" style="font-size: 1.2rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-database" style="font-size: 1.2rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <strong style="font-size: 0.9rem;">Biomedical EN-FR Corpus</strong>
       <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Parallel corpus for English-French biomedical translation.</p>
       <a href="https://huggingface.co/datasets/SLPG/Biomedical_EN_FR_Corpus" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;">View on HuggingFace →</a>
@@ -188,7 +188,7 @@ a.hf-link:hover {
   </div>
   <div class="col-6 col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <i class="fa-solid fa-folder-open" style="font-size: 1.2rem; color: #6f42c1; margin-bottom: 8px; display: block;"></i>
+      <i class="fa-solid fa-folder-open" style="font-size: 1.2rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
       <strong style="font-size: 0.9rem;">All Datasets & Models</strong>
       <p style="font-size: 0.85rem; color: #666; margin: 6px 0;">Explore our complete collection on HuggingFace.</p>
       <a href="https://huggingface.co/SLPG" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;">View HuggingFace profile →</a>
@@ -200,7 +200,7 @@ a.hf-link:hover {
 <div class="row">
   <div class="col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <span style="display: inline-block; background: #ece5fa; color: #6f42c1; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;">Information 2026</span>
+      <span style="display: inline-block; background: #f7dcf5; color: #b916b0; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;">Information 2026</span>
       <p style="font-weight: 600; font-size: 0.95rem; margin: 0 0 8px;">Temporal Robustness of Large Language Models for Thematic Classification of UN General Assembly Debates</p>
       <p style="font-size: 0.8rem; color: #666; margin: 0 0 10px;">Fatima, M., Rauf, S. A., Saadia, I. N., Ghulam, A. M. M., Imran, M.</p>
       <a href="https://www.mdpi.com/2078-2489/17/6/589" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i> Read Paper</a>
@@ -208,7 +208,7 @@ a.hf-link:hover {
   </div>
   <div class="col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <span style="display: inline-block; background: #ece5fa; color: #6f42c1; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;">Information 2026</span>
+      <span style="display: inline-block; background: #f7dcf5; color: #b916b0; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;">Information 2026</span>
       <p style="font-weight: 600; font-size: 0.95rem; margin: 0 0 8px;">A Comparative Framework for Political Violence Event Classification Using Machine Learning, Deep Learning, and Zero-Shot Language Models</p>
       <p style="font-size: 0.8rem; color: #666; margin: 0 0 10px;">Beenish, U., Ishtiaq Nauman, S., Rauf, S. A., Mumtaz, F., Abbas Malik, M. G., Imran, M., Iqbal, M.</p>
       <a href="https://www.mdpi.com/2078-2489/17/7/621" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i> Read Paper</a>
@@ -216,7 +216,7 @@ a.hf-link:hover {
   </div>
   <div class="col-md-4" style="margin-bottom: 1rem;">
     <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
-      <span style="display: inline-block; background: #ece5fa; color: #6f42c1; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;">PLOS ONE 2026</span>
+      <span style="display: inline-block; background: #f7dcf5; color: #b916b0; font-size: 0.75rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px;">PLOS ONE 2026</span>
       <p style="font-weight: 600; font-size: 0.95rem; margin: 0 0 8px;">Automatic Sentence Simplification System for Arabic Script Punjabi</p>
       <p style="font-size: 0.8rem; color: #666; margin: 0 0 10px;">Shehzad, T., Rauf, S. A., Nazeer, S., Daud, A., Dawood, H.</p>
       <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344915" target="_blank" class="hf-link" style="font-size: 0.85rem; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i> Read Paper</a>
