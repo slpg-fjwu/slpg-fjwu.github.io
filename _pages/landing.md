@@ -23,7 +23,7 @@ permalink: /
   <h1 style="font-size: 2.2rem; font-weight: 700; margin: 1.5rem 0 0.5rem;">Speech and Language Processing Group</h1>
   <p style="color: #666; font-size: 1rem; max-width: 480px; margin: 0 0 2rem;">Building computational models for the understanding and generation of natural language.</p>
 
-  <a href="/about/" class="slpg-enter-btn" style="background: #4338ca; color: #fff; padding: 0.85rem 2.2rem; border-radius: 30px; font-weight: 600; font-size: 1rem; text-decoration: none; transition: background 0.2s ease;">Enter Site</a>
+  <a href="/about/" class="slpg-enter-btn" style="background: #4338ca; color: #fff; padding: 0.85rem 2.2rem; border-radius: 30px; font-weight: 600; font-size: 1rem; text-decoration: none; transition: background 0.2s ease;">Welcome to the Speech and Language Processing Group</a>
 
 </div>
 
