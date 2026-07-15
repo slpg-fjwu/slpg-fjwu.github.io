@@ -33,7 +33,7 @@ a.hf-link:hover {
 </style>
 
 <h4 style="text-align: center; margin-bottom: 1rem;">Collaborating Institutions</h4>
-<div class="marquee-wrap" style="overflow: hidden; position: relative; margin: 1rem 0 2rem; background: #b916b0; border-radius: 12px; padding: 0.9rem 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);">
+<div class="marquee-wrap" style="overflow: hidden; position: relative; margin: 1rem 0 2rem; background: #d375cf; border-radius: 12px; padding: 0.9rem 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);">
   <div class="marquee-track" style="display: flex; width: max-content; animation: scrollLeft 45s linear infinite;">
     <div class="marquee-group" style="display: flex; gap: 2.5rem; padding-right: 2.5rem;">
       <span class="inst-pill">International Islamic University, Islamabad</span>
