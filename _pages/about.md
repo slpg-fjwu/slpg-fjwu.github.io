@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About 
-permalink: /about/
+permalink: /
 subtitle: <a href='#'></a>
 
 profile:
@@ -15,6 +15,7 @@ latest_posts: true
 selected_papers: false
 social: true
 ---
+
 Rawalpindi, Pakistan.
 
 Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language.
