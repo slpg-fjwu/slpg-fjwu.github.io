@@ -64,7 +64,7 @@ a.hf-link:hover {
 .inst-pill {
   display: inline-block;
   white-space: nowrap;
-  color: #fff;
+  color: #000000;
   font-size: 0.9rem;
   font-weight: 600;
 }
