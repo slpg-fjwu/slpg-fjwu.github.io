@@ -15,6 +15,19 @@ latest_posts: true
 selected_papers: false
 social: true
 ---
+
+<div style="background: linear-gradient(135deg, #eef2ff, #f5f0ff); border-radius: 16px; padding: 2rem; margin-bottom: 2rem;">
+  <p style="display: inline-block; background: #e0e7ff; color: #4338ca; font-size: 0.8rem; font-weight: 600; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px;">WELCOME TO SLPG</p>
+  <h1 style="font-size: 2.2rem; font-weight: 700; margin: 0 0 12px; line-height: 1.2;">
+    Advancing AI Research in Speech, Language and <span style="color: #4338ca;">Beyond</span>
+  </h1>
+  <p style="font-size: 1rem; color: #555; max-width: 600px; margin-bottom: 20px;">
+    We conduct cutting-edge research in Natural Language Processing, Speech Technologies, and Large Language Models to solve real-world challenges and empower society.
+  </p>
+  <a href="/publications/" style="display: inline-block; background: #4338ca; color: white; padding: 10px 20px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; margin-right: 10px; text-decoration: none;">Explore Research →</a>
+  <a href="/publications/" style="display: inline-block; background: white; color: #4338ca; border: 1px solid #4338ca; padding: 10px 20px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; text-decoration: none;">View Publications</a>
+</div>
+
 Rawalpindi, Pakistan.
 
 Welcome to the Speech and Language Processing Group, Islamabad. SLPG was founded at FJWU and now is a joint collaboration with International Islamic University, islamabad. We develop computational models for the understanding or generation of natural language.
