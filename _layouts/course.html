@@ -1,0 +1,40 @@
+---
+layout: page
+---
+<div class="container text-justify">
+  {% if page.instructor or page.semester %}
+  <p style="color:#888;">
+    {% if page.instructor %}<strong>Instructor:</strong> {{ page.instructor }}{% endif %}
+    {% if page.instructor and page.semester %} &nbsp;|&nbsp; {% endif %}
+    {% if page.semester %}<strong>Semester:</strong> {{ page.semester }}{% endif %}
+  </p>
+  {% endif %}
+
+  {{ content }}
+
+  <h4 style="margin-top:2rem;">Lectures</h4>
+  {% if page.lectures and page.lectures.size > 0 %}
+  <div style="overflow-x:auto;">
+    <table class="table table-hover">
+      <thead>
+        <tr><th>#</th><th>Topic</th><th>Slides</th><th>Video</th><th>Other</th></tr>
+      </thead>
+      <tbody>
+      {% for l in page.lectures %}
+        <tr>
+          <td>{{ forloop.index }}</td>
+          <td>{{ l.title }}</td>
+          <td>{% if l.slides %}<a href="{{ l.slides | relative_url }}" target="_blank" style="color:#b916b0;font-weight:600;">PDF</a>{% else %}-{% endif %}</td>
+          <td>{% if l.video %}<a href="{{ l.video }}" target="_blank" style="color:#b916b0;font-weight:600;">Watch</a>{% else %}-{% endif %}</td>
+          <td>{% if l.extra %}<a href="{{ l.extra | relative_url }}" target="_blank" style="color:#b916b0;font-weight:600;">{{ l.extra_label | default: "Download" }}</a>{% else %}-{% endif %}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <p style="color:#888;">Lectures will be uploaded soon.</p>
+  {% endif %}
+
+  <p style="margin-top:1.5rem;"><a href="{{ '/teaching/' | relative_url }}" style="color:#b916b0;font-weight:600;">&larr; Back to Teaching</a></p>
+</div>
