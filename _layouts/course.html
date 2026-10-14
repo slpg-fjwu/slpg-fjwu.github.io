@@ -12,8 +12,25 @@ layout: page
 
   {{ content }}
 
-  <h4 style="margin-top:2rem;">Lectures</h4>
+  {% if page.books and page.books.size > 0 %}
+  <h4 style="margin-top:2rem;">Books</h4>
+  <div class="row" style="margin: 1rem 0;">
+    {% for b in page.books %}
+    <div class="col-12 col-md-6" style="margin-bottom: 1rem;">
+      <div style="background: var(--global-card-bg-color, #fff); border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; height: 100%;">
+        <i class="fa-solid fa-book" style="font-size: 1.4rem; color: #b916b0; margin-bottom: 8px; display: block;"></i>
+        <strong style="font-size: 0.95rem;">{{ b.title }}</strong>
+        {% if b.author %}<p style="font-size: 0.85rem; color: #666; margin: 4px 0;">{{ b.author }}</p>{% endif %}
+        {% if b.file %}<a href="{{ b.file | relative_url }}" target="_blank" style="color:#b916b0;font-weight:600;font-size:0.85rem;">Download PDF &rarr;</a>{% endif %}
+        {% if b.link %}<a href="{{ b.link }}" target="_blank" style="color:#b916b0;font-weight:600;font-size:0.85rem;{% if b.file %}margin-left:12px;{% endif %}">Open link &rarr;</a>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
   {% if page.lectures and page.lectures.size > 0 %}
+  <h4 style="margin-top:2rem;">Lectures</h4>
   <div style="overflow-x:auto;">
     <table class="table table-hover">
       <thead>
@@ -32,8 +49,6 @@ layout: page
       </tbody>
     </table>
   </div>
-  {% else %}
-  <p style="color:#888;">Lectures will be uploaded soon.</p>
   {% endif %}
 
   <p style="margin-top:1.5rem;"><a href="{{ '/teaching/' | relative_url }}" style="color:#b916b0;font-weight:600;">&larr; Back to Teaching</a></p>
