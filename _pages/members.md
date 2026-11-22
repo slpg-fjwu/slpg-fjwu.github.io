@@ -24,7 +24,10 @@ nav_order: 8
             <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
             <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
         </div>
-
+        <div class="col-md-3">
+            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+            <p><strong>Dr. Rabia Shabbir</strong><br>Principal Investigator</p>
+        </div>
     </div>
 
     <hr>
