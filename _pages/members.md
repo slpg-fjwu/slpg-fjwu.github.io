@@ -11,24 +11,31 @@ nav_order: 8
 
 
 
-    <!-- Principal Investigator -->
-    <h2>Principal Investigators</h2>
-    <div class="row justify-content-center">
+<h2>Principal Investigators</h2>
+<div class="row justify-content-center">
 
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
-        </div>
-
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
-        </div>
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Dr. Rabia Shabbir</strong><br>Principal Investigator</p>
-        </div>
+    <div class="col-md-3">
+        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+        <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
     </div>
+
+    <div class="col-md-3">
+        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+        <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
+    </div>
+
+    <div class="col-md-3">
+        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+        <p><strong>Dr. Rabia Shabbir</strong><br>Principal Investigator</p>
+    </div>
+
+    <!-- NEW: Dr. Rabia Nazar -->
+    <div class="col-md-3">
+        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+        <p><strong>Dr. Rabia Nazar</strong><br>Principal Investigator</p>
+    </div>
+
+</div>
 
     <hr>
 
