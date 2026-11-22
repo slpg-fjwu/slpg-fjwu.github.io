@@ -9,33 +9,31 @@ nav_order: 8
 
 <div class="container text-center">
 
+    <!-- Principal Investigators -->
+    <h2>Principal Investigators</h2>
+    <div class="row justify-content-center">
 
+        <div class="col-md-3">
+            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+            <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
+        </div>
 
-<h2>Principal Investigators</h2>
-<div class="row justify-content-center">
+        <div class="col-md-3">
+            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+            <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
+        </div>
 
-    <div class="col-md-3">
-        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-        <p><strong>Dr. Sadaf Abdul Rauf</strong><br>Principal Investigator</p>
+        <div class="col-md-3">
+            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+            <p><strong>Dr. Rabia Shabbir</strong><br>Principal Investigator</p>
+        </div>
+
+        <div class="col-md-3">
+            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
+            <p><strong>Dr. Rabia Nazar</strong><br>Principal Investigator</p>
+        </div>
+
     </div>
-
-    <div class="col-md-3">
-        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-        <p><strong>Dr. Saadia Ishtiaq Nauman</strong><br>Principal Investigator</p>
-    </div>
-
-    <div class="col-md-3">
-        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-        <p><strong>Dr. Rabia Shabbir</strong><br>Principal Investigator</p>
-    </div>
-
-    <!-- NEW: Dr. Rabia Nazar -->
-    <div class="col-md-3">
-        <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-        <p><strong>Dr. Rabia Nazar</strong><br>Principal Investigator</p>
-    </div>
-
-</div>
 
     <hr>
 
@@ -43,8 +41,8 @@ nav_order: 8
     <h2 class="text-left">PhD Student</h2>
     <ul class="text-left">
         <li>
-        <strong>Mr Sami Ul Haq</strong> |
-         <a href="/projects/1_Context-aware%20NMT/">
+            <strong>Mr Sami Ul Haq</strong> |
+            <a href="/projects/1_Context-aware%20NMT/">
                 Context-aware NMT using Selected Context
             </a>
         </li>
@@ -71,12 +69,14 @@ nav_order: 8
                 Exploring the Potential of Large Language Models for Counter Argument Generation (2025)
             </a>
         </li>
+
         <li>
             <strong>Ms Humaira Mehmood</strong> |
             <a href="/projects/6_Humaira_Mehmood/">
                 An End-to-End Speech Translation System (2025)
             </a>
         </li>
+
         <li>
             <strong>Ms Rabbia Tanveer Ahmed</strong> |
             <a href="/projects/5_Rabbia_Ahmad/">
@@ -125,30 +125,33 @@ nav_order: 8
                 Fake News Detection on Kashmir Issue Using Machine Learning Techniques (2021)
             </a>
         </li>
+
         <li>
             <strong>Ms Sahar Jamal</strong> |
             <a href="/projects/sahar/">
                 Exploring Transfer Learning for Urdu Speech Synthesis (2021)
             </a>
         </li>
-        <li><strong>Ms Noor e Hira</strong> |
+
+        <li>
+            <strong>Ms Noor e Hira</strong> |
             <a href="https://slpg-fjwu.github.io/projects/noor-e-hira/">
                 Exploring Transfer Learning and Domain Data Selection for Bio-medical Translation (2021)
             </a>
-        
         </li>
-        <li><strong>Ms Yusra Anees</strong> |
+
+        <li>
+            <strong>Ms Yusra Anees</strong> |
             <a href="/projects/yusra/">
                 Automatic Sentence Simplification in Low Resource Settings for Urdu (2021)
             </a>
-        
         </li>
 
     </ul>
 
     <hr>
 
-    <!-- Undergraduate Alumni -->
+    <!-- Undergraduate Students -->
     <h2 class="text-left">Undergraduate Students</h2>
     <ul class="text-left">
 
@@ -205,14 +208,3 @@ nav_order: 8
     </ul>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
