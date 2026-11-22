@@ -28,10 +28,7 @@ nav_order: 8
             <p><strong>Dr. Rabia Shabbir</strong><br>Principal Investigator</p>
         </div>
 
-        <div class="col-md-3">
-            <img src="/assets/img/pi.png" class="img-fluid rounded" style="height:180px; object-fit:cover;">
-            <p><strong>Dr. Rabia Nazar</strong><br>Principal Investigator</p>
-        </div>
+
 
     </div>
 
